@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "brand": "Portugal Agency",
+    "menu_aria": "Menu principal",
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "contact": "Contato",
+    "cta": "Fale Conosco"
+  },
+  "hero": {
+    "headline": "Construir algo seu exige proteção certa.",
+    "subtitle": "A cobertura certa começa aqui.",
+    "description": "A Portugal Agency nasceu para garantir que famílias e negócios em New Jersey tenham acesso à cobertura certa — com clareza, atenção e atendimento em português, espanhol e inglês. Conectamos você às melhores seguradoras em minutos, não em horas.",
+    "cta_primary": "Quero me proteger agora",
+    "cta_secondary": "Como funciona",
+    "video_alt": "Assista nosso vídeo",
+    "seals": {
+      "insurance": "Seguros",
+      "tax": "Preparação de Impostos",
+      "notary": "Serviços de Notário"
+    }
+  },
+  "foundation": {
+    "label": "Fundação",
+    "headline": "Uma agência que foi criada para pessoas como você",
+    "description": "Nossa fundadora construiu sua carreira entendendo de perto os desafios de quem está crescendo em New Jersey. A Portugal Agency existe para ser o apoio que muita gente não teve. Sabemos o que é começar do zero e queremos que você chegue longe.",
+    "features": {
+      "protection": {
+        "title": "Proteção\nsob medida",
+        "description": "Cada cobertura é pensada para o seu momento — seja você autônomo, dono de negócio ou chefe de família."
+      },
+      "community": {
+        "title": "Feita para a comunidade",
+        "description": "Nascemos dentro da comunidade imigrante e entendemos suas necessidades como ninguém."
+      },
+      "speed": {
+        "title": "Rápido e sem burocracia",
+        "description": "Conectamos você às melhores seguradoras em minutos, com processos simples e diretos."
+      },
+      "languages": {
+        "title": "Atendimento\ntrilíngue",
+        "description": "Falamos português, espanhol e inglês para que você se sinta em casa."
+      }
+    },
+    "cta_primary": "Conhecer",
+    "cta_secondary": "Saiba mais"
+  },
+  "coverages": {
+    "label": "Coberturas",
+    "headline": "O seguro certo para cada parte da sua vida",
+    "description": "Somos uma agência independente — isso significa que não trabalhamos para as seguradoras, trabalhamos para você. Comparamos os melhores planos do mercado e explicamos cada opção com clareza, para que você escolha com confiança.",
+    "cta_business": "Sou negócio",
+    "cta_family": "Sou família"
+  },
+  "business": {
+    "label": "Negócio",
+    "headline_line1": "Seu negócio protegido.",
+    "headline_line2": "Você focado em crescer.",
+    "description": "Seja qual for o tamanho da sua empresa, estar coberto não é opcional — é o que permite que você opere com tranquilidade e credibilidade no mercado.",
+    "cards": {
+      "card1": {
+        "label": "Funcionários",
+        "title": "Workers' comp obrigatório para quem emprega em NJ",
+        "mobile_description": "Proteja sua equipe e opere dentro da lei",
+        "hover_description": "Toda empresa com funcionários precisa de workers' comp. Proteja sua equipe e mantenha seu negócio dentro da lei.",
+        "cta": "Saiba mais"
+      },
+      "card2": {
+        "label": "Pequenos negócios",
+        "title": "General liability e proteção de propriedade em um pacote",
+        "mobile_description": "Cobertura completa que simplifica sua gestão",
+        "hover_description": "O Business Owner's Policy combina as coberturas essenciais em um único plano acessível para pequenas empresas.",
+        "cta": "Saiba mais"
+      },
+      "card3": {
+        "label": "Prestadores de serviço",
+        "title": "Proteção contra erros e omissões no seu trabalho",
+        "mobile_description": "Defenda sua reputação e seu crescimento",
+        "hover_description": "Professional liability protege você contra alegações de negligência, erros ou falhas na prestação de serviços.",
+        "cta": "Saiba mais"
+      }
+    }
+  },
+  "family": {
+    "label": "Família",
+    "headline": "O que você construiu merece estar protegido",
+    "description": "Sua casa, seus bens e a tranquilidade da sua família — tudo começa com a cobertura certa.",
+    "cards": {
+      "card1": {
+        "title": "Seguro residencial para sua casa",
+        "description": "Antes de contratar qualquer cobertura, você precisa entender o que faz sentido para sua realidade. Agendamos sem pressa e sem pressão."
+      },
+      "card2": {
+        "title": "Proteção contra o que você não espera",
+        "description": "Seu imóvel e tudo dentro dele coberto contra danos, roubos e imprevistos."
+      },
+      "card3": {
+        "title": "Seguro automóvel dentro da lei",
+        "description": "Na estrada, você precisa estar coberto com as exigências de New Jersey."
+      }
+    },
+    "cta_quote": "Cotar",
+    "cta_protect": "Proteger"
+  },
+  "auto": {
+    "headline": "Proteção veicular",
+    "features": {
+      "f1": {
+        "title": "Proteção veicular completa",
+        "description": "Cotamos nas principais seguradoras para encontrar seu melhor plano."
+      },
+      "f2": {
+        "title": "Sem complicação",
+        "description": "Você sabe exatamente o que está coberto antes de assinar qualquer coisa."
+      },
+      "f3": {
+        "title": "Dentro da lei",
+        "description": "Cobertura que atende todas as exigências de New Jersey para dirigir."
+      }
+    },
+    "cta_quote": "Cotar",
+    "cta_protect": "Proteger"
+  },
+  "coverageCards": {
+    "label": "Cobertura",
+    "headline": "Seguros que protegem seu negócio",
+    "description": "Workers' compensation, general liability e muito mais",
+    "cards": {
+      "card1": {
+        "label": "Empresas",
+        "title": "Soluções comerciais para riscos reais",
+        "mobile_description": "Cada negócio enfrenta desafios únicos. Nós temos as respostas.",
+        "hover_description": "Coberturas sob medida para proteger sua operação, seus funcionários e seu patrimônio comercial.",
+        "cta": "Explorar"
+      },
+      "card2": {
+        "label": "Empresas",
+        "title": "Cobertura para quem emprega",
+        "mobile_description": "Funcionários protegidos, empresa em conformidade.",
+        "hover_description": "Workers' compensation obrigatório e general liability para manter seu negócio seguro e dentro da lei.",
+        "cta": "Explorar"
+      }
+    }
+  },
+  "consulting": {
+    "label": "Consultoria",
+    "headline": "Conversa antes de contratar",
+    "description": "Você agenda, a gente conversa, você entende.",
+    "cards": {
+      "card1": {
+        "title": "Trinta minutos para dúvidas específicas",
+        "description": "Orientação direta quando você precisa de respostas rápidas.",
+        "cta_primary": "Agendar",
+        "cta_secondary": "Conversar"
+      },
+      "card2": {
+        "title": "Uma hora para entender sua situação",
+        "description": "Análise profunda da sua realidade pessoal, familiar ou empresarial.",
+        "cta_primary": "Agendar",
+        "cta_secondary": "Consultar"
+      }
+    }
+  },
+  "cta": {
+    "headline": "Pronto para começar?",
+    "description": "Obtenha sua cotação em minutos, não em horas.",
+    "cta_primary": "Cotação",
+    "cta_secondary": "Contato",
+    "image_alt": "Portugal Agency"
+  },
+  "testimonials": {
+    "label": "Depoimentos",
+    "headline": "O que nossos clientes dizem",
+    "description": "Histórias reais de quem confiou na Portugal Agency.",
+    "items": {
+      "t1": {
+        "quote": "A Portugal Agency me ajudou a encontrar o seguro certo para meu negócio em menos de uma hora. Atendimento excepcional.",
+        "name": "Carlos Mendes",
+        "role": "Dono de restaurante, Newark NJ"
+      },
+      "t2": {
+        "quote": "Finalmente consegui entender minha cobertura. Eles explicam tudo em português, com paciência e clareza.",
+        "name": "Ana Silva",
+        "role": "Proprietária, Elizabeth NJ"
+      },
+      "t3": {
+        "quote": "Economizei mais de $2,000 por ano no seguro da minha frota. Recomendo para qualquer empresário.",
+        "name": "Roberto Oliveira",
+        "role": "Empresa de limpeza, Kearny NJ"
+      }
+    }
+  },
+  "blog": {
+    "label": "Recursos",
+    "headline": "Saiba mais sobre seguros",
+    "description": "Dicas, atualizações e tudo que você precisa saber.",
+    "cards": {
+      "card1": {
+        "tag": "Comercial",
+        "read_time": "6 min leitura",
+        "title": "Workers' compensation para pequenas empresas",
+        "description": "Entenda como proteger seus funcionários e seu negócio.",
+        "cta": "Ler"
+      },
+      "card2": {
+        "tag": "Pessoal",
+        "read_time": "5 min leitura",
+        "title": "Seguro residencial, o que realmente importa",
+        "description": "Coberturas que fazem diferença quando você mais precisa.",
+        "cta": "Ler"
+      },
+      "card3": {
+        "tag": "Dicas",
+        "read_time": "7 min leitura",
+        "title": "Como escolher o seguro automóvel ideal",
+        "description": "Guia prático para não deixar nada de fora.",
+        "cta": "Ler"
+      }
+    },
+    "cta_all": "Ver tudo"
+  },
+  "footer": {
+    "headline": "Proteja o que importa",
+    "description": "Receba as melhores cotações de seguros direto na sua caixa de entrada.",
+    "cta_subscribe": "Inscrever",
+    "cta_contact": "Contato",
+    "copyright": "© 2026 Portugal Agency. All rights reserved.",
+    "columns": {
+      "insurance": {
+        "title": "Seguros",
+        "links": ["Sobre nós", "Seguros comerciais", "Seguros pessoais", "Parceiros", "Recursos"]
+      },
+      "blog": {
+        "title": "Blog",
+        "links": ["Artigos recentes", "Guias de seguros", "Dicas de proteção", "Contato", "Fale conosco"]
+      },
+      "follow": {
+        "title": "Siga-nos",
+        "links": ["Início", "Consultoria", "Sobre nós", "Blog", "Parceiros"]
+      },
+      "commercial": {
+        "title": "Comercial",
+        "links": ["Workers' compensation", "General liability", "Professional liability", "BOP", "Equipamentos"]
+      },
+      "personal": {
+        "title": "Pessoal",
+        "links": ["Seguro residencial", "Seguro automóvel", "Cobertura terremotos", "Outros seguros", "Recursos"]
+      },
+      "company": {
+        "title": "Empresa",
+        "links": ["Nossa história", "Visão e valores", "Equipe experiente", "Compromisso com você", "Conecte"]
+      }
+    }
+  }
+}

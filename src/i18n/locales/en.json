@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "brand": "Portugal Agency",
+    "menu_aria": "Main menu",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "cta": "Get in Touch"
+  },
+  "hero": {
+    "headline": "What you've built deserves real protection.",
+    "subtitle": "The right coverage starts here.",
+    "description": "Portugal Agency was created to ensure that families and businesses in New Jersey have access to the right coverage — with clarity, care, and service in Portuguese, Spanish, and English. We connect you to the best insurers in minutes, not hours.",
+    "cta_primary": "Protect myself now",
+    "cta_secondary": "How it works",
+    "video_alt": "Watch our video",
+    "seals": {
+      "insurance": "Insurances",
+      "tax": "Tax Preparation",
+      "notary": "Notary Services"
+    }
+  },
+  "foundation": {
+    "label": "Foundation",
+    "headline": "An agency built for people like you",
+    "description": "Our founder built her career understanding firsthand the challenges of those growing in New Jersey. Portugal Agency exists to be the support many never had. We know what it's like to start from scratch and we want you to go far.",
+    "features": {
+      "protection": {
+        "title": "Tailored protection",
+        "description": "Every coverage is designed for your moment — whether you're self-employed, a business owner, or head of a family."
+      },
+      "community": {
+        "title": "Built for the community",
+        "description": "We were born within the immigrant community and understand your needs like no one else."
+      },
+      "speed": {
+        "title": "Fast and hassle-free",
+        "description": "We connect you to the best insurers in minutes, with simple and straightforward processes."
+      },
+      "languages": {
+        "title": "Trilingual service",
+        "description": "We speak Portuguese, Spanish, and English so you feel at home."
+      }
+    },
+    "cta_primary": "Learn more",
+    "cta_secondary": "Read more"
+  },
+  "coverages": {
+    "label": "Coverages",
+    "headline": "The right insurance for every part of your life",
+    "description": "We are an independent agency — that means we don't work for the insurers, we work for you. We compare the best plans on the market and explain each option clearly, so you can choose with confidence.",
+    "cta_business": "I'm a business",
+    "cta_family": "I'm a family"
+  },
+  "business": {
+    "label": "Business",
+    "headline_line1": "Your business protected.",
+    "headline_line2": "You focused on growing.",
+    "description": "No matter the size of your company, being covered isn't optional — it's what allows you to operate with peace of mind and credibility in the market.",
+    "cards": {
+      "card1": {
+        "label": "Employees",
+        "title": "Workers' comp required for employers in NJ",
+        "mobile_description": "Protect your team and stay compliant",
+        "hover_description": "Every business with employees needs workers' comp. Protect your team and keep your business compliant.",
+        "cta": "Learn more"
+      },
+      "card2": {
+        "label": "Small business",
+        "title": "General liability and property protection in one package",
+        "mobile_description": "Complete coverage that simplifies your management",
+        "hover_description": "The Business Owner's Policy combines essential coverages into a single affordable plan for small businesses.",
+        "cta": "Learn more"
+      },
+      "card3": {
+        "label": "Service providers",
+        "title": "Protection against errors and omissions in your work",
+        "mobile_description": "Defend your reputation and your growth",
+        "hover_description": "Professional liability protects you against allegations of negligence, errors, or failures in service delivery.",
+        "cta": "Learn more"
+      }
+    }
+  },
+  "family": {
+    "label": "Family",
+    "headline": "What you've built deserves to be protected",
+    "description": "Your home, your assets, and your family's peace of mind — it all starts with the right coverage.",
+    "cards": {
+      "card1": {
+        "title": "Home insurance for your house",
+        "description": "Before choosing any coverage, you need to understand what makes sense for your reality. We schedule without rush or pressure."
+      },
+      "card2": {
+        "title": "Protection against the unexpected",
+        "description": "Your property and everything inside it covered against damages, theft, and unforeseen events."
+      },
+      "card3": {
+        "title": "Auto insurance within the law",
+        "description": "On the road, you need to be covered according to New Jersey requirements."
+      }
+    },
+    "cta_quote": "Get a quote",
+    "cta_protect": "Protect"
+  },
+  "auto": {
+    "headline": "Vehicle protection",
+    "features": {
+      "f1": {
+        "title": "Complete vehicle protection",
+        "description": "We quote from top insurers to find your best plan."
+      },
+      "f2": {
+        "title": "No hassle",
+        "description": "You know exactly what's covered before you sign anything."
+      },
+      "f3": {
+        "title": "Within the law",
+        "description": "Coverage that meets all New Jersey requirements for driving."
+      }
+    },
+    "cta_quote": "Get a quote",
+    "cta_protect": "Protect"
+  },
+  "coverageCards": {
+    "label": "Coverage",
+    "headline": "Insurance that protects your business",
+    "description": "Workers' compensation, general liability and more",
+    "cards": {
+      "card1": {
+        "label": "Business",
+        "title": "Commercial solutions for real risks",
+        "mobile_description": "Every business faces unique challenges. We have the answers.",
+        "hover_description": "Tailored coverage to protect your operations, your employees, and your commercial assets.",
+        "cta": "Explore"
+      },
+      "card2": {
+        "label": "Business",
+        "title": "Coverage for employers",
+        "mobile_description": "Protected employees, compliant business.",
+        "hover_description": "Mandatory workers' compensation and general liability to keep your business safe and legal.",
+        "cta": "Explore"
+      }
+    }
+  },
+  "consulting": {
+    "label": "Consulting",
+    "headline": "Talk before you sign",
+    "description": "You schedule, we talk, you understand.",
+    "cards": {
+      "card1": {
+        "title": "Thirty minutes for specific questions",
+        "description": "Direct guidance when you need quick answers.",
+        "cta_primary": "Schedule",
+        "cta_secondary": "Chat"
+      },
+      "card2": {
+        "title": "One hour to understand your situation",
+        "description": "Deep analysis of your personal, family, or business reality.",
+        "cta_primary": "Schedule",
+        "cta_secondary": "Consult"
+      }
+    }
+  },
+  "cta": {
+    "headline": "Ready to get started?",
+    "description": "Get your quote in minutes, not hours.",
+    "cta_primary": "Get a Quote",
+    "cta_secondary": "Contact",
+    "image_alt": "Portugal Agency"
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "headline": "What our clients say",
+    "description": "Real stories from people who trusted Portugal Agency.",
+    "items": {
+      "t1": {
+        "quote": "Portugal Agency helped me find the right insurance for my business in less than an hour. Exceptional service.",
+        "name": "Carlos Mendes",
+        "role": "Restaurant owner, Newark NJ"
+      },
+      "t2": {
+        "quote": "I finally understood my coverage. They explain everything in Portuguese, with patience and clarity.",
+        "name": "Ana Silva",
+        "role": "Homeowner, Elizabeth NJ"
+      },
+      "t3": {
+        "quote": "I saved over $2,000 a year on my fleet insurance. I recommend them to any business owner.",
+        "name": "Roberto Oliveira",
+        "role": "Cleaning company, Kearny NJ"
+      }
+    }
+  },
+  "blog": {
+    "label": "Resources",
+    "headline": "Learn more about insurance",
+    "description": "Tips, updates, and everything you need to know.",
+    "cards": {
+      "card1": {
+        "tag": "Commercial",
+        "read_time": "6 min read",
+        "title": "Workers' compensation for small businesses",
+        "description": "Understand how to protect your employees and your business.",
+        "cta": "Read"
+      },
+      "card2": {
+        "tag": "Personal",
+        "read_time": "5 min read",
+        "title": "Home insurance — what really matters",
+        "description": "Coverages that make a difference when you need them most.",
+        "cta": "Read"
+      },
+      "card3": {
+        "tag": "Tips",
+        "read_time": "7 min read",
+        "title": "How to choose the ideal auto insurance",
+        "description": "A practical guide so you don't miss anything.",
+        "cta": "Read"
+      }
+    },
+    "cta_all": "View all"
+  },
+  "footer": {
+    "headline": "Protect what matters",
+    "description": "Get the best insurance quotes delivered to your inbox.",
+    "cta_subscribe": "Subscribe",
+    "cta_contact": "Contact",
+    "copyright": "© 2026 Portugal Agency. All rights reserved.",
+    "columns": {
+      "insurance": {
+        "title": "Insurance",
+        "links": ["About us", "Commercial insurance", "Personal insurance", "Partners", "Resources"]
+      },
+      "blog": {
+        "title": "Blog",
+        "links": ["Recent articles", "Insurance guides", "Protection tips", "Contact", "Get in touch"]
+      },
+      "follow": {
+        "title": "Follow us",
+        "links": ["Home", "Consulting", "About us", "Blog", "Partners"]
+      },
+      "commercial": {
+        "title": "Commercial",
+        "links": ["Workers' compensation", "General liability", "Professional liability", "BOP", "Equipment"]
+      },
+      "personal": {
+        "title": "Personal",
+        "links": ["Home insurance", "Auto insurance", "Earthquake coverage", "Other insurance", "Resources"]
+      },
+      "company": {
+        "title": "Company",
+        "links": ["Our story", "Vision and values", "Experienced team", "Our commitment", "Connect"]
+      }
+    }
+  }
+}

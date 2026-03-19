@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tomato Grotesk Font Family */
+@font-face {
+  font-family: 'Tomato Grotesk';
+  src: url('/fonts/TomatoGrotesk-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tomato Grotesk';
+  src: url('/fonts/TomatoGrotesk-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tomato Grotesk';
+  src: url('/fonts/TomatoGrotesk-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tomato Grotesk';
+  src: url('/fonts/TomatoGrotesk-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tomato Grotesk';
+  src: url('/fonts/TomatoGrotesk-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Immigration Office Design System - Light Mode Only
+   All colors are HSL. Primary: Red, Accent: Navy
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary: Professional Red for CTAs and key actions */
+    --primary: 0 72% 51%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary: Light neutral for secondary actions */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    /* Muted: Subtle backgrounds and de-emphasized content */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    /* Accent: Navy for links, highlights, and subtle emphasis */
+    --accent: 222 47% 20%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive: Error states */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 222 47% 20%;
+
+    /* Border Radius - All set to 0 */
+    --radius: 0px;
+    --radius-sm: 0px;
+    --radius-md: 0px;
+    --radius-lg: 0px;
+
+    /* Sidebar tokens */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 0 72% 51%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 222 47% 20%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 222 47% 20%;
+
+    /* Spacing Scale */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+    --spacing-4xl: 6rem;
+    --spacing-5xl: 8rem;
+
+    /* Shadows */
+    --shadow-flat: none;
+    --shadow-raised: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-floating: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+  }
+
+  /* Branded Text Selection */
+  ::selection {
+    background-color: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
+  }
+
+  ::-moz-selection {
+    background-color: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
+  }
+}
+
+/* Typography Utilities */
+@layer utilities {
+  .text-display {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-semibold leading-none tracking-tighter;
+  }
+
+  .text-h1 {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-semibold leading-none tracking-tighter;
+  }
+
+  .text-h2 {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-[2rem] md:text-[3rem] lg:text-[3.5rem] font-semibold leading-none tracking-tight;
+  }
+
+  .text-h3 {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-[1.5rem] md:text-[1.75rem] lg:text-[2rem] font-medium leading-tight tracking-tight;
+  }
+
+  .text-h4 {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-[1.25rem] md:text-[1.25rem] lg:text-[1.5rem] font-medium leading-tight tracking-tight;
+  }
+
+  .text-body-lg {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-lg font-normal leading-relaxed;
+  }
+
+  .text-body {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-base font-normal leading-relaxed;
+  }
+
+  .text-body-sm {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-sm font-normal leading-relaxed;
+  }
+
+  .text-caption {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-xs font-normal leading-normal text-muted-foreground;
+  }
+
+  .text-label {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-sm font-medium leading-none text-primary;
+  }
+
+  .text-button {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-sm font-medium leading-none;
+  }
+
+  .text-mono {
+    font-family: 'Tomato Grotesk', system-ui, sans-serif;
+    @apply text-sm;
+  }
+
+  .section-xl {
+    @apply py-4xl lg:py-5xl;
+  }
+
+  .stack-sections {
+    @apply flex flex-col gap-5xl;
+  }
+
+  /* Elevation utilities */
+  .surface-flat {
+    @apply bg-background border border-border;
+  }
+
+  .surface-raised {
+    @apply bg-card border border-border;
+    box-shadow: var(--shadow-raised);
+  }
+
+  .surface-floating {
+    @apply bg-popover border border-border;
+    box-shadow: var(--shadow-floating);
+  }
+}
