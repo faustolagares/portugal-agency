@@ -48,12 +48,14 @@ export function AutoProtection() {
             </div>
             <FadeIn delay={0.55}>
               <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                <Button variant="secondary" size="lg">
-                  {t("auto.cta_quote")}
+                <Button variant="secondary" size="lg" asChild>
+                  <a href="/seguro-automovel">{t("auto.cta_quote")}</a>
                 </Button>
-                <Button variant="link" className="gap-1">
-                  {t("auto.cta_protect")}
-                  <ChevronRight className="h-4 w-4" />
+                <Button variant="link" className="gap-1" asChild>
+                  <a href="/seguro-automovel">
+                    {t("auto.cta_protect")}
+                    <ChevronRight className="h-4 w-4" />
+                  </a>
                 </Button>
               </div>
             </FadeIn>

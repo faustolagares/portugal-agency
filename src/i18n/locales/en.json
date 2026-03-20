@@ -6,6 +6,8 @@
     "about": "About",
     "services": "Services",
     "contact": "Contact",
+    "blog": "Blog",
+    "partners": "Partners",
     "cta": "Get in Touch"
   },
   "hero": {
@@ -251,6 +253,327 @@
         "title": "Company",
         "links": ["Our story", "Vision and values", "Experienced team", "Our commitment", "Connect"]
       }
+    }
+  },
+  "consultoriaPage": {
+    "hero": { "label": "Consulting", "headline": "Understand before you commit", "description": "We schedule a no-pressure conversation so you understand exactly which coverages make sense for your life or business.", "cta_primary": "Schedule a consultation", "cta_secondary": "How it works" },
+    "steps": {
+      "s1": { "anchor": "Diagnosis", "tag": "Start", "headline": "We understand your reality before any proposal", "description": "Before suggesting any coverage, we need to know you. Your family, your business, your specific risks. No generic forms." },
+      "s2": { "anchor": "Analysis", "tag": "Process", "headline": "We compare the market based on what you need", "description": "With your profile mapped, we search the best options among dozens of insurers. You get clear comparisons, not jargon." },
+      "s3": { "anchor": "Recommendation", "tag": "Result", "headline": "A personalized recommendation with no conflict of interest", "description": "We're independent. Our recommendation is based on what's best for you, not on the insurer's commission." },
+      "s4": { "anchor": "Follow-up", "tag": "Long term", "headline": "We stay with you after you sign", "description": "We review your coverage annually, help with claims, and answer any questions. You're never alone." }
+    },
+    "options": {
+      "label": "Options", "headline": "Choose how you want to be served", "description": "Each situation calls for a different type of consultation.",
+      "o1": { "label": "Quick", "title": "30 minutes — specific questions", "description": "Ideal for those who already have an idea of what they need and want direct guidance.", "f1": "Objective answer to your question", "f2": "No commitment required", "f3": "Available in PT, EN, and ES", "cta_primary": "Schedule", "cta_secondary": "Learn more" },
+      "o2": { "label": "Complete", "title": "1 hour — full situation analysis", "description": "For those who want to deeply understand the best options for their profile.", "f1": "Complete risk analysis", "f2": "Comparison of multiple insurers", "f3": "Personalized report", "cta_primary": "Schedule", "cta_secondary": "Learn more" },
+      "o3": { "label": "Business", "title": "Consulting for businesses", "description": "Specialized analysis for business owners with multiple coverage needs.", "f1": "Workers' comp, GL and more", "f2": "Legal compliance analysis", "f3": "Ongoing post-signing support", "cta_primary": "Schedule", "cta_secondary": "Learn more" }
+    },
+    "cta": { "headline": "Ready to talk?", "description": "Schedule now and get clear guidance on the right insurance for you.", "cta_primary": "Schedule a consultation", "cta_secondary": "Contact us" }
+  },
+  "segurosComercPage": {
+    "hero": { "label": "Protection", "headline": "Insurance for your business", "description": "Access to multiple insurers with fast, personalized quotes for businesses of any size.", "cta_primary": "Get a quote", "cta_secondary": "Talk to a specialist" },
+    "steps": {
+      "s1": { "anchor": "Fast quote", "tag": "Speed", "headline": "Answers in minutes, not weeks", "description": "Enter your data once and receive quotes from multiple insurers simultaneously." },
+      "s2": { "anchor": "Multiple options", "tag": "Choice", "headline": "Compare side by side without the hassle", "description": "We present all options clearly so you can choose with confidence, without pressure." },
+      "s3": { "anchor": "Expert consulting", "tag": "Support", "headline": "A specialist by your side from start to finish", "description": "Our consultants understand the nuances of each state and business type to ensure full compliance." },
+      "s4": { "anchor": "Full coverage", "tag": "Scope", "headline": "All the coverage your business needs", "description": "From Workers' Compensation to General Liability — you access everything in one place, with people who know the field." }
+    },
+    "comoFunciona": {
+      "label": "Process", "headline": "How we get your quote", "description": "Three simple steps to complete protection",
+      "c1": { "label": "Analysis", "title": "We understand your business", "description": "You tell us about your company, operations, and specific risks." },
+      "c2": { "label": "Search", "title": "We consult multiple insurers", "description": "Your data is sent simultaneously to our partners and platforms." },
+      "c3": { "label": "Comparison", "title": "You choose the best option", "description": "We present quotes side by side with personalized recommendations." }
+    },
+    "produtos": {
+      "label": "Coverage", "headline": "Insurance for every type of business", "description": "Protect your business with the right coverage. From startups to established operations.", "cta": "Explore coverages",
+      "p1": { "title": "Workers' Compensation", "description": "Mandatory protection for your employees in case of work-related injury or illness." },
+      "p2": { "title": "General Liability", "description": "Coverage against bodily injury and property damage caused by your operations." },
+      "p3": { "title": "Professional Liability", "description": "Protection for professionals against errors and omissions in their services." },
+      "p4": { "title": "Business Owners Policy", "description": "Combination of property and liability in a single package." }
+    },
+    "faq": {
+      "headline": "Questions", "description": "Answers to the most common questions about commercial insurance.",
+      "q1": { "q": "How long does quoting take?", "a": "Most quotes are processed in minutes. You enter your data once and receive offers from multiple insurers simultaneously." },
+      "q2": { "q": "Do I need all these insurances?", "a": "It depends on your business. Workers' Compensation is mandatory in many states. Our specialists analyze your case and recommend what you really need." },
+      "q3": { "q": "How do you find better prices?", "a": "We access multiple insurers and platforms at once, quickly comparing offers and negotiating the best rates for you." },
+      "q4": { "q": "Can I switch insurance later?", "a": "Yes. If you find a better option or your needs change, we can help you transition without complications." },
+      "q5": { "q": "Do you offer ongoing support?", "a": "Absolutely. Our team is available to answer questions, help with claims, and review your coverage as your business grows." }
+    },
+    "cta": { "headline": "Protect your business now", "description": "Quotes from multiple insurers in minutes, not days.", "cta_primary": "Quote now", "cta_secondary": "Talk to the team" }
+  },
+  "workersCompPage": {
+    "hero": { "label": "Protection", "headline": "Insurance for your employees", "description": "Stay compliant and protect those who work for you with reliable coverage.", "cta_primary": "Get a quote", "cta_secondary": "Learn more" },
+    "oQueE": {
+      "label": "Essential", "headline": "What is Workers' Compensation", "description": "It's mandatory insurance that protects your employees when they suffer work-related injuries or illnesses. Covers medical expenses and part of the salary during leave.",
+      "tab1": { "label": "Coverage", "tag": "Protection", "title": "Types of coverage available", "description": "We offer plans covering medical expenses, rehabilitation, permanent disability compensation, and death benefits." },
+      "tab2": { "label": "Requirements", "tag": "Legal", "title": "Who is required to purchase it", "description": "Most states require Workers' Compensation for businesses with employees. In New Jersey, the requirement applies to virtually all employers." },
+      "tab3": { "label": "Benefits", "tag": "Advantages", "title": "Why protect your team now", "description": "Beyond legal compliance, you protect your business from costly lawsuits, secure team loyalty, and demonstrate responsibility as an employer." },
+      "cta_primary": "Get a quote", "cta_secondary": "Details"
+    },
+    "porQue": {
+      "label": "Advantage", "headline": "Why choose us", "description": "Direct access to multiple insurers and competitive rates.",
+      "v1": { "title": "Quotes from multiple providers", "description": "We enter your data once and search the best options among Travelers, Amtrust, and other partner insurers." },
+      "v2": { "title": "Expert guidance", "description": "Our specialists understand the nuances of each state and business type to ensure full compliance." },
+      "v3": { "title": "Transparent and agile process", "description": "You see all options side by side and choose what makes the most sense for your business, without complications." }
+    },
+    "stats": {
+      "label": "Reality", "headline": "What the numbers show", "description": "Workplace accidents are costly. Proper protection saves time and money.",
+      "n1": { "number": "2.6M", "label": "Non-fatal injuries per year" },
+      "n2": { "number": "$1T", "label": "Estimated annual cost" },
+      "n3": { "number": "92%", "label": "Businesses with adequate coverage" }
+    },
+    "faq": {
+      "headline": "Questions", "description": "Answers to the most common questions about employee protection.",
+      "q1": { "q": "Who needs to get it?", "a": "Most states require employers with employees to purchase Workers' Compensation. Rules vary by location and number of employees." },
+      "q2": { "q": "What does it cover?", "a": "It covers medical expenses, rehabilitation, and part of lost wages when an employee suffers a work-related injury or illness." },
+      "q3": { "q": "How does the process work?", "a": "You provide information about your business and employees. We get quotes from multiple insurers and present the best options." },
+      "q4": { "q": "What is the average cost?", "a": "The premium varies depending on business type, number of employees, and claims history. We request a personalized quote for your situation." },
+      "q5": { "q": "Can I switch insurers?", "a": "Yes. You can review your coverage at any time and switch to a better plan. We help with the transition to ensure continuous protection." }
+    },
+    "cta": { "headline": "Get your quote", "description": "Talk to our specialists to find the best coverage for your business.", "cta_primary": "Quote now", "cta_secondary": "Talk to the team" }
+  },
+  "sobreNosPage": {
+    "hero": { "label": "Modern insurance", "headline": "Portugal Agency", "description": "Specializing in property and casualty insurance, we offer solutions for individuals and businesses in New Jersey.", "cta_primary": "Schedule a consultation", "cta_secondary": "See coverages" },
+    "historia": { "label": "Experience", "headline": "Our story in the insurance market", "description": "From the start, Portugal Agency dedicated itself exclusively to the Property & Casualty segment. We've accumulated years of experience in personal and commercial insurance, constantly evolving to offer the best solutions to the Portuguese and Hispanic community in New Jersey.", "cta_primary": "Contact us", "cta_secondary": "Our services" },
+    "diferenciais": {
+      "label": "Differentials", "headline": "What makes us unique", "description": "Comprehensive solutions with access to multiple insurers.",
+      "d1": { "title": "Wide range of insurance", "description": "We cover personal, commercial, and specialized needs for any situation." },
+      "d2": { "title": "Access to multiple insurers", "description": "Strategic partnerships guarantee the best options and prices." },
+      "d3": { "title": "Personalized solution search", "description": "We find the ideal protection for each client with consultative attention." }
+    },
+    "numeros": {
+      "label": "Numbers", "headline": "Credibility in data", "description": "Our track record reflects dedication and trust in the market.",
+      "n1": { "num": "15+", "label": "Years of experience", "desc": "Consolidated expertise in the Property & Casualty segment." },
+      "n2": { "num": "500+", "label": "Clients served", "desc": "Individuals and businesses that trust our solutions." },
+      "n3": { "num": "20+", "label": "Strategic partnerships", "desc": "Access to leading insurers and market platforms." }
+    },
+    "equipa": {
+      "label": "Team", "headline": "Our professionals", "description": "Specialists dedicated to finding the best protection for you.", "cta": "Contact us",
+      "p1": { "name": "Carlos Silva", "role": "Executive Director", "bio": "Over a decade leading insurance strategies and partnerships." },
+      "p2": { "name": "Maria Santos", "role": "Commercial Manager", "bio": "Specialist in customized solutions for businesses of all sizes." },
+      "p3": { "name": "João Oliveira", "role": "Insurance Consultant", "bio": "Consultative service focused on understanding real needs." }
+    },
+    "cta": { "headline": "Next steps", "description": "Explore our insurance and find the right protection for you or your business.", "cta_primary": "Schedule a consultation", "cta_secondary": "See coverages" }
+  },
+  "generalLiabilityPage": {
+    "hero": { "label": "Protection", "headline": "General Liability Insurance", "description": "Your business protected against unexpected risks and everyday incidents.", "cta_primary": "Get a quote", "cta_secondary": "Learn more" },
+    "what": {
+      "label": "Protection", "headline": "What is General Liability insurance", "description": "General Liability is the fundamental protection for any business. It covers expenses when your business causes harm to third parties, whether through bodily injury or property damage.",
+      "items": ["Bodily injury and accidents", "Third-party property damage", "Medical expenses and lawsuits"],
+      "cta_primary": "Learn more", "cta_secondary": "Explore"
+    },
+    "why": {
+      "label": "Benefits", "headline": "Why your business needs it",
+      "f1": { "title": "Financial protection", "description": "Prevents a single incident from destroying your business." },
+      "f2": { "title": "Legal compliance", "description": "Meets mandatory requirements in commercial contracts." },
+      "f3": { "title": "Operational peace of mind", "description": "Work without fear of unexpected daily risks." },
+      "f4": { "title": "Broad coverage", "description": "Protects against injuries, damages, and legal expenses." }
+    },
+    "faq": {
+      "headline": "Questions", "description": "Answers to the most common questions about general liability protection.",
+      "q1": { "q": "What exactly does it cover?", "a": "General Liability protects your business when someone gets hurt at your premises or when your products cause damage. It covers medical expenses, lawsuits, and compensation for bodily injury or third-party property damage." },
+      "q2": { "q": "How much does it cost?", "a": "The cost varies depending on the type of business, annual revenue, and claims history. Portugal Agency compares quotes from multiple insurers to find the best price for your business." },
+      "q3": { "q": "Who needs this insurance?", "a": "Virtually every business that deals with the public or has commercial property needs General Liability. From small businesses to large corporations, this insurance is essential for financial protection." },
+      "q4": { "q": "How does a claim work?", "a": "When an incident occurs, you notify the insurer immediately. The insurer investigates, evaluates the claim, and covers costs according to your policy terms." },
+      "q5": { "q": "Can I customize the coverage?", "a": "Yes. You can adjust coverage limits, deductibles, and add specialized coverages based on your business's specific needs." }
+    },
+    "cta": { "headline": "Protect your business now", "description": "Fast quotes from multiple insurers.", "cta_primary": "Quote now", "cta_secondary": "Talk to a specialist" }
+  },
+  "seguroPessoalPage": {
+    "hero": { "label": "Protection", "headline": "Insurance for your life", "description": "Complete coverage for your home, car, and personal belongings with the best options on the market.", "cta_primary": "Get a quote", "cta_secondary": "Contact" },
+    "products": {
+      "label": "Options", "headline": "Personal insurance for you", "description": "Home, car, equipment, and much more",
+      "p1": { "label": "Home", "title": "Complete protection for your home", "description": "Comprehensive coverage against damage and theft." },
+      "p2": { "label": "Car", "title": "Safety on streets and roads", "description": "24-hour assistance and complete coverage." },
+      "p3": { "label": "Earthquakes", "title": "Protection against natural disasters", "description": "Specialized coverage for your peace of mind." },
+      "p4": { "label": "Equipment", "title": "Insurance for your valuable belongings", "description": "Specific protection for personal equipment." }
+    },
+    "benefits": {
+      "label": "Benefits", "headline": "Why choose Portugal Agency", "description": "Reliable protection with the best insurers on the market.",
+      "b1": { "tag": "Peace of mind", "title": "Comprehensive coverage for your peace of mind", "description": "Protect your home, car, and personal belongings with coverages that really work when you need them." },
+      "b2": { "tag": "Speed", "title": "Quotes in minutes", "description": "Receive proposals from multiple insurers without filling out repetitive forms. Our process is direct and efficient." },
+      "b3": { "tag": "Expertise", "title": "Specialists by your side", "description": "Our consultants speak Portuguese, Spanish, and English to ensure you understand every detail of your coverage." }
+    },
+    "faq": {
+      "headline": "Questions", "description": "Answers to the most common questions about personal insurance and how to get covered.",
+      "q1": { "q": "How much does insurance cost?", "a": "The value depends on the type of coverage, the insured asset, and your risk profile. We compare multiple insurers to find the best options and prices for you." },
+      "q2": { "q": "Can I sign up online?", "a": "Yes. You can request a quote through our website and contact us to finalize the contract safely and quickly." },
+      "q3": { "q": "What coverages are included?", "a": "We offer coverage for home, car, and personal belongings. Each plan can be customized according to your specific needs and budget." },
+      "q4": { "q": "How does service work?", "a": "Our team is available to guide you through every step of the process, from quoting to contracting and after-sales support." },
+      "q5": { "q": "Do I need specific documentation?", "a": "Yes, basic documents will be requested during the quoting process. Our team will guide you on everything that is needed." }
+    },
+    "cta": { "headline": "Protect yourself and your family", "description": "Complete coverage for what matters most.", "cta_primary": "Quote now", "cta_secondary": "Talk to a specialist" }
+  },
+  "seguroResidencialPage": {
+    "hero": { "label": "Protection", "headline": "Your home, secured", "description": "Protect what matters most with home insurance that offers real peace of mind for you and your family.", "cta_primary": "Get a quote", "cta_secondary": "Learn more" },
+    "coverages": {
+      "label": "Protection", "headline": "Coverages that protect your home", "description": "Your home deserves complete protection. We offer comprehensive coverage for all the risks your house may face.", "cta_primary": "Learn more", "cta_secondary": "Compare",
+      "c1": { "title": "Fire and explosion", "description": "Protection against damage caused by fire, explosion, and smoke. Your structure and belongings are covered." },
+      "c2": { "title": "Theft and burglary", "description": "Coverage for theft of goods inside the property and break-in burglary." },
+      "c3": { "title": "Electrical damage", "description": "Protection against short circuits and damage caused by electrical power variations." },
+      "c4": { "title": "Natural disasters", "description": "Coverage for damage caused by windstorm, hail, lightning, and other natural events." }
+    },
+    "testimonials": {
+      "headline": "Satisfied clients", "description": "See what our clients say about home insurance.",
+      "t1": { "quote": "Portugal Agency made everything simple. I received several quotes in minutes and chose the best option for my home.", "name": "Maria Silva", "role": "Homeowner, New Jersey" },
+      "t2": { "quote": "When I had a claim, the team was fast and efficient. My problem was resolved without complications.", "name": "João Santos", "role": "Homeowner, Newark NJ" },
+      "t3": { "quote": "I recommend Portugal Agency to anyone who wants real protection and fair prices for their home.", "name": "Ana Costa", "role": "Homeowner, Elizabeth NJ" }
+    },
+    "faq": {
+      "headline": "Questions", "description": "Find answers to the most common questions about home insurance.",
+      "q1": { "q": "What is covered?", "a": "Home insurance covers fire, theft, electrical damage, and natural disasters. Each policy can be customized to your specific needs." },
+      "q2": { "q": "How does the deductible work?", "a": "The deductible is the amount you pay before insurance covers the damage. The higher the deductible, the lower the monthly premium." },
+      "q3": { "q": "How long does quoting take?", "a": "Our platform provides quotes in minutes. You receive multiple insurer options to compare prices and coverages." },
+      "q4": { "q": "Can I change my coverage?", "a": "Yes, you can adjust your coverage at any time during the policy period. Contact us to make changes." },
+      "q5": { "q": "What is the policy term?", "a": "Policies generally have a one-year term. You can renew or make changes before the expiration date." }
+    },
+    "cta": { "headline": "Protect your home now", "description": "Quotes from multiple insurers in minutes.", "cta_primary": "Quote now", "cta_secondary": "Talk to a specialist" }
+  },
+  "blogPage": {
+    "label": "Blog",
+    "headline": "Insurance knowledge",
+    "description": "Articles and insights to protect your business and family",
+    "tabs": { "all": "All", "commercial": "Commercial", "personal": "Personal", "tips": "Tips", "trends": "Trends" },
+    "posts": {
+      "p1": { "category": "Commercial", "readTime": "7 min read", "title": "Complete guide: general liability for businesses", "description": "Understand the essential coverages to protect your business from third-party claims" },
+      "p2": { "category": "Commercial", "readTime": "5 min read", "title": "Workers' compensation: the employer's guide", "description": "Learn what's required and how it works in New Jersey" },
+      "p3": { "category": "Personal", "readTime": "6 min read", "title": "Home insurance: what you need to know", "description": "Discover which coverages you really need for your home" },
+      "p4": { "category": "Personal", "readTime": "4 min read", "title": "Auto insurance: how to choose the right coverage", "description": "Compare coverages and find the right balance between protection and cost" }
+    },
+    "readMore": "Read more",
+    "viewAll": "View all articles",
+    "cta": {
+      "headline": "Ready to protect your business?",
+      "description": "Get a personalized quote in minutes with our specialists",
+      "primary": "Request a quote",
+      "secondary": "Contact us"
+    },
+    "faq": {
+      "headline": "Blog FAQ",
+      "description": "Answers to the most common questions about our content",
+      "q1": { "q": "What's the difference between personal and commercial insurance?", "a": "Personal insurance covers individuals and their properties, like home and car. Commercial insurance protects businesses against operational risks, liabilities, and property losses. Portugal Agency offers both." },
+      "q2": { "q": "Why should I read about insurance?", "a": "Our articles help you understand available coverage types, make informed decisions, and properly protect your assets. Knowledge is the best defense against unexpected risks." },
+      "q3": { "q": "How often do you publish new articles?", "a": "We regularly publish relevant content about market trends, protection tips, and insurance analyses. Follow our blog to stay updated." },
+      "q4": { "q": "Can I share these articles with my company?", "a": "Yes, our articles are valuable educational resources. Share them with your team or clients to promote better understanding of insurance protection." },
+      "q5": { "q": "How do articles help with insurance quotes?", "a": "By better understanding your risks and needs through our articles, you'll be more prepared to request an accurate quote suited to your reality." },
+      "cta": "Contact us"
+    },
+    "contact": {
+      "label": "Location",
+      "headline": "Visit us",
+      "description": "We're here to answer your insurance questions",
+      "email": { "title": "Email", "value": "contact@portugalagency.com" },
+      "phone": { "title": "Phone", "value": "+1 (201) 555-0147" },
+      "address": { "title": "Address", "value": "180 Ferry St, Newark, New Jersey 07105" }
+    }
+  },
+  "blogPostPage": {
+    "breadcrumb": { "blog": "Blog", "category": "Insurance" },
+    "title": "Understanding coverage types for your business",
+    "author": "Portugal Agency",
+    "authorRole": "P&C Insurance Specialist",
+    "date": "Jan 15, 2024",
+    "readTime": "8 min read",
+    "share": "Share this article",
+    "tags": { "t1": "Commercial insurance", "t2": "Business protection", "t3": "Professional coverage", "t4": "Practical tips" },
+    "testimonials": {
+      "headline": "Readers speak",
+      "description": "What they say about our articles",
+      "t1": { "quote": "I finally understood the difference between general liability and professional liability. Excellent explanation.", "name": "Carlos Mendes", "role": "Owner, Commercial Cleaning" },
+      "t2": { "quote": "I was looking for information on workers' compensation and found everything here clearly and directly.", "name": "Ana Silva", "role": "HR Manager, Tech Startup" },
+      "t3": { "quote": "The home insurance article helped me choose the right coverage for my house.", "name": "João Ferreira", "role": "Property Owner, New Jersey" }
+    },
+    "related": {
+      "label": "Blog",
+      "headline": "Read more articles",
+      "description": "Explore our guides and tips",
+      "viewAll": "View all",
+      "posts": {
+        "p1": { "category": "Commercial", "readTime": "7 min read", "title": "Complete guide to general liability", "description": "Understand the essential coverages for your business" },
+        "p2": { "category": "Personal", "readTime": "5 min read", "title": "Home insurance: what you need to know", "description": "Protect your home with the right coverages" },
+        "p3": { "category": "Commercial", "readTime": "6 min read", "title": "Workers' compensation for small businesses", "description": "Learn how to properly protect your employees" }
+      }
+    },
+    "cta": {
+      "headline": "Ready to take the next step?",
+      "description": "Talk to our specialists and get a personalized quote.",
+      "primary": "Request a quote",
+      "secondary": "How it works"
+    }
+  },
+  "parceirosPage": {
+    "label": "Partners",
+    "headline": "Broad market access",
+    "description": "We work with the best insurers to find your ideal coverage",
+    "primary": "Request a quote",
+    "secondary": "Contact us",
+    "logosHeadline": "Partners that cover the market",
+    "cta": {
+      "headline": "Ready to get your quote?",
+      "description": "Our partner network ensures you find the ideal coverage at the best market price.",
+      "primary": "Request a quote",
+      "secondary": "Contact us"
+    }
+  },
+  "seguroAutomovelPage": {
+    "label": "Protection",
+    "headline": "Smart auto insurance",
+    "description": "Fast quotes from multiple insurers in one place",
+    "primary": "Get a quote",
+    "secondary": "Contact us",
+    "comparison": {
+      "label": "Comparison",
+      "headline": "Multiple insurers in one place",
+      "description": "See all available options with prices and coverages side by side",
+      "tag": "Efficiency",
+      "title": "Automatic quotes from our partners",
+      "body": "Enter your information just once. Our platform automatically fetches quotes from multiple insurers, saving your time and ensuring you see all available options on the market.",
+      "primary": "Compare",
+      "secondary": "Learn more"
+    },
+    "coverages": {
+      "label": "Protection",
+      "headline": "Coverage that works",
+      "description": "Your vehicle deserves more than empty promises",
+      "c1": { "tag": "Basic", "title": "Liability Coverage", "body": "Mandatory coverage that protects third parties in case of an accident — bodily injury and property damage. The legal foundation of any policy in New Jersey.", "primary": "Learn more", "secondary": "Details" },
+      "c2": { "tag": "Mid-range", "title": "Collision & Comprehensive", "body": "Protects your vehicle against collisions, theft, vandalism, natural disasters, and non-accident damage. Ideal for mid- to high-value vehicles.", "primary": "Learn more", "secondary": "Details" },
+      "c3": { "tag": "Premium", "title": "Full Coverage", "body": "Complete combination: liability, collision, comprehensive, and 24-hour roadside assistance. The broadest protection available for total peace of mind.", "primary": "Learn more", "secondary": "Details" },
+      "c4": { "tag": "Add-on", "title": "24h Roadside Assistance", "body": "When something happens on the road, you don't want to wait. Our specialists are available around the clock to guide you through every step of the claim.", "primary": "Learn more", "secondary": "Details" }
+    },
+    "steps": {
+      "label": "Process",
+      "headline": "How you get your insurance",
+      "description": "Three simple steps. No complications, no surprises. You control everything.",
+      "s1": { "title": "Fill in your details just once", "description": "Tell us about your vehicle and your coverage needs. Fast and without repetitive forms." },
+      "s2": { "title": "Receive quotes from multiple insurers", "description": "Our platform automatically searches for the best available options on the market for you." },
+      "s3": { "title": "Choose and sign in minutes", "description": "Compare prices and coverages side by side, then sign online and be protected immediately." }
+    },
+    "faq": {
+      "headline": "Auto insurance FAQ",
+      "description": "Clear answers about coverages, deductibles, and claims procedures",
+      "q1": { "q": "Which coverage should I choose?", "a": "Coverage depends on your vehicle and needs. We offer everything from liability to full coverage with theft and collision protection. Our specialists help you find the right balance between protection and cost." },
+      "q2": { "q": "How does the deductible work?", "a": "The deductible is the amount you pay when making a claim. Lower deductibles mean higher premiums, and vice versa. You choose the amount that best fits your budget during the quote." },
+      "q3": { "q": "How long does a quote take?", "a": "Our platform compares multiple insurers in minutes. You receive options from different providers with prices and coverages side by side, saving hours of manual research." },
+      "q4": { "q": "What to do after an accident?", "a": "Contact us immediately after an accident. We'll guide you through every step of the claims process and ensure your situation is resolved quickly with the insurer." },
+      "q5": { "q": "Can I switch insurance?", "a": "Yes, you can switch at any time. We help with the transition and ensure there are no gaps in coverage during the change from one policy to another." },
+      "ctaHeadline": "Still have questions?",
+      "ctaDescription": "Talk to our specialists for personalized guidance",
+      "cta": "Contact us"
+    },
+    "contact": {
+      "label": "Support",
+      "headline": "Contact us",
+      "description": "Our specialists are ready to help with your auto insurance questions",
+      "email": { "title": "Email", "subtitle": "Send us a message", "value": "contact@portugalagency.com" },
+      "phone": { "title": "Phone", "subtitle": "Call to speak with us", "value": "+1 (201) 555-0147" },
+      "address": { "title": "Office", "subtitle": "Newark, New Jersey, United States", "cta": "Get directions" }
+    },
+    "cta": {
+      "headline": "Get your quote now",
+      "description": "Don't wait any longer to protect your vehicle with the best available coverage.",
+      "primary": "Get a quote",
+      "secondary": "Contact us"
     }
   }
 }

@@ -6,6 +6,8 @@
     "about": "Sobre",
     "services": "Serviços",
     "contact": "Contato",
+    "blog": "Blog",
+    "partners": "Parceiros",
     "cta": "Fale Conosco"
   },
   "hero": {
@@ -251,6 +253,335 @@
         "title": "Empresa",
         "links": ["Nossa história", "Visão e valores", "Equipe experiente", "Compromisso com você", "Conecte"]
       }
+    }
+  },
+  "consultoriaPage": {
+    "hero": {
+      "label": "Consultoria",
+      "headline": "Entenda antes de contratar",
+      "description": "Agendamos uma conversa sem pressão para que você entenda exatamente quais coberturas fazem sentido para sua vida ou negócio.",
+      "cta_primary": "Agendar consulta",
+      "cta_secondary": "Como funciona"
+    },
+    "steps": {
+      "s1": { "anchor": "Diagnóstico", "tag": "Início", "headline": "Entendemos sua realidade antes de qualquer proposta", "description": "Antes de sugerir qualquer cobertura, precisamos conhecer você. Sua família, seu negócio, seus riscos específicos. Sem formulários genéricos." },
+      "s2": { "anchor": "Análise", "tag": "Processo", "headline": "Comparamos o mercado em função do que você precisa", "description": "Com seu perfil mapeado, buscamos as melhores opções entre dezenas de seguradoras. Você recebe comparações claras, não jargões." },
+      "s3": { "anchor": "Recomendação", "tag": "Resultado", "headline": "Uma recomendação personalizada, sem conflito de interesse", "description": "Somos independentes. Nossa recomendação é baseada no que é melhor para você, não na comissão da seguradora." },
+      "s4": { "anchor": "Acompanhamento", "tag": "Longo prazo", "headline": "Continuamos com você após a contratação", "description": "Revisamos sua cobertura anualmente, ajudamos com sinistros e respondemos qualquer dúvida. Você nunca fica sozinho." }
+    },
+    "options": {
+      "label": "Modalidades",
+      "headline": "Escolha como quer ser atendido",
+      "description": "Cada situação pede um formato diferente de consulta.",
+      "o1": { "label": "Rápido", "title": "30 minutos — dúvidas específicas", "description": "Ideal para quem já tem uma ideia do que precisa e quer orientação direta.", "f1": "Resposta objetiva à sua dúvida", "f2": "Sem compromisso de contratação", "f3": "Disponível em PT, EN e ES", "cta_primary": "Agendar", "cta_secondary": "Saiba mais" },
+      "o2": { "label": "Completo", "title": "1 hora — análise da sua situação", "description": "Para quem quer entender em profundidade as melhores opções para seu perfil.", "f1": "Análise completa de riscos", "f2": "Comparação de múltiplas seguradoras", "f3": "Relatório personalizado", "cta_primary": "Agendar", "cta_secondary": "Saiba mais" },
+      "o3": { "label": "Empresarial", "title": "Consultoria para empresas", "description": "Análise especializada para donos de negócio com múltiplas coberturas necessárias.", "f1": "Workers' comp, GL e mais", "f2": "Análise de conformidade legal", "f3": "Suporte contínuo pós-contratação", "cta_primary": "Agendar", "cta_secondary": "Saiba mais" }
+    },
+    "cta": { "headline": "Pronto para conversar?", "description": "Agende agora e receba orientação clara sobre os seguros certos para você.", "cta_primary": "Agendar consulta", "cta_secondary": "Falar conosco" }
+  },
+  "segurosComercPage": {
+    "hero": { "label": "Proteção", "headline": "Seguros para seu negócio", "description": "Acesso a múltiplas seguradoras com cotações rápidas e personalizadas para empresas de qualquer tamanho.", "cta_primary": "Cotar", "cta_secondary": "Falar com especialista" },
+    "steps": {
+      "s1": { "anchor": "Cotação rápida", "tag": "Velocidade", "headline": "Respostas em minutos, não semanas", "description": "Insira seus dados uma única vez e receba cotações de múltiplas seguradoras simultaneamente." },
+      "s2": { "anchor": "Múltiplas opções", "tag": "Escolha", "headline": "Compare lado a lado sem complicação", "description": "Apresentamos todas as opções de forma clara para que você possa escolher com confiança, sem pressão." },
+      "s3": { "anchor": "Consultoria especializada", "tag": "Suporte", "headline": "Um especialista ao seu lado do início ao fim", "description": "Nossos consultores entendem as nuances de cada estado e tipo de negócio para garantir conformidade total." },
+      "s4": { "anchor": "Coberturas completas", "tag": "Abrangência", "headline": "Toda cobertura que sua empresa precisa", "description": "De Workers' Compensation a General Liability — você acessa tudo num só lugar, com quem entende do assunto." }
+    },
+    "comoFunciona": {
+      "label": "Processo", "headline": "Como obtemos sua cotação", "description": "Três passos simples para proteção completa",
+      "c1": { "label": "Análise", "title": "Entendemos seu negócio", "description": "Você nos conta sobre sua empresa, operações e riscos específicos." },
+      "c2": { "label": "Busca", "title": "Consultamos múltiplas seguradoras", "description": "Seus dados são enviados simultaneamente para parceiros e plataformas." },
+      "c3": { "label": "Comparação", "title": "Você escolhe a melhor opção", "description": "Apresentamos cotações lado a lado com recomendações personalizadas." }
+    },
+    "produtos": {
+      "label": "Cobertura", "headline": "Seguros para cada tipo de negócio", "description": "Proteja sua empresa com as coberturas certas. Desde startups até operações estabelecidas.", "cta": "Explorar coberturas",
+      "p1": { "title": "Workers' Compensation", "description": "Proteção obrigatória para seus funcionários em caso de lesão ou doença no trabalho." },
+      "p2": { "title": "General Liability", "description": "Cobertura contra danos corporais e materiais causados por suas operações." },
+      "p3": { "title": "Professional Liability", "description": "Proteção para profissionais contra erros e omissões em seus serviços." },
+      "p4": { "title": "Business Owners Policy", "description": "Combinação de propriedade e responsabilidade em um único pacote." }
+    },
+    "faq": {
+      "headline": "Dúvidas", "description": "Respostas para as perguntas mais comuns sobre seguros comerciais.",
+      "q1": { "q": "Quanto tempo leva para cotar?", "a": "A maioria das cotações é processada em minutos. Você insere seus dados uma única vez e recebe ofertas de múltiplas seguradoras simultaneamente." },
+      "q2": { "q": "Preciso de todos os seguros?", "a": "Depende do seu negócio. Workers' Compensation é obrigatório em muitos estados. Nossos especialistas analisam seu caso e recomendam o que você realmente precisa." },
+      "q3": { "q": "Como vocês encontram melhores preços?", "a": "Acessamos múltiplas seguradoras e plataformas de uma vez, comparando ofertas rapidamente e negociando as melhores taxas para você." },
+      "q4": { "q": "Posso mudar de seguro depois?", "a": "Sim. Se encontrar uma opção melhor ou suas necessidades mudarem, podemos ajudá-lo a fazer a transição sem complicações." },
+      "q5": { "q": "Vocês oferecem suporte contínuo?", "a": "Absolutamente. Nossa equipe está disponível para responder perguntas, ajudar com sinistros e revisar sua cobertura conforme seu negócio cresce." }
+    },
+    "cta": { "headline": "Proteja seu negócio agora", "description": "Cotações de múltiplas seguradoras em minutos, não em dias.", "cta_primary": "Cotar agora", "cta_secondary": "Falar com a equipa" }
+  },
+  "workersCompPage": {
+    "hero": { "label": "Proteção", "headline": "Seguro para seus funcionários", "description": "Cumpra a lei e proteja quem trabalha para você com cobertura confiável.", "cta_primary": "Cotar agora", "cta_secondary": "Saber mais" },
+    "oQueE": {
+      "label": "Essencial", "headline": "O que é Workers' Compensation", "description": "É um seguro obrigatório que protege seus funcionários quando sofrem lesões ou doenças no trabalho. Cobre despesas médicas e parte do salário durante o afastamento.",
+      "tab1": { "label": "Cobertura", "tag": "Proteção", "title": "Tipos de cobertura disponíveis", "description": "Oferecemos planos que cobrem despesas médicas, reabilitação, indenizações por incapacidade permanente e benefícios de morte." },
+      "tab2": { "label": "Requisitos", "tag": "Legal", "title": "Quem é obrigado a contratar", "description": "A maioria dos estados exige Workers' Compensation para empresas com funcionários. Em New Jersey, a obrigatoriedade se aplica a praticamente todos os empregadores." },
+      "tab3": { "label": "Benefícios", "tag": "Vantagens", "title": "Por que proteger sua equipa agora", "description": "Além de cumprir a lei, você protege sua empresa de processos judiciais custosos, garante a fidelidade da sua equipa e demonstra responsabilidade como empregador." },
+      "cta_primary": "Cotar", "cta_secondary": "Detalhes"
+    },
+    "porQue": {
+      "label": "Vantagem", "headline": "Por que contratar conosco", "description": "Acesso direto a múltiplas seguradoras e taxas competitivas.",
+      "v1": { "title": "Cotações de múltiplos provedores", "description": "Inserimos seus dados uma única vez e buscamos as melhores opções entre Travelers, Amtrust e outras seguradoras parceiras." },
+      "v2": { "title": "Assessoria especializada", "description": "Nossos especialistas entendem as nuances de cada estado e tipo de negócio para garantir conformidade total." },
+      "v3": { "title": "Processo transparente e ágil", "description": "Você vê todas as opções lado a lado e escolhe o que faz mais sentido para sua empresa, sem complicações." }
+    },
+    "stats": {
+      "label": "Realidade", "headline": "O que os números mostram", "description": "Acidentes de trabalho custam caro. Proteção adequada economiza tempo e dinheiro.",
+      "n1": { "number": "2.6M", "label": "Lesões não fatais por ano" },
+      "n2": { "number": "$1T", "label": "Custo anual estimado" },
+      "n3": { "number": "92%", "label": "Empresas com cobertura adequada" }
+    },
+    "faq": {
+      "headline": "Dúvidas", "description": "Respostas para as perguntas mais comuns sobre proteção de funcionários.",
+      "q1": { "q": "Quem precisa contratar?", "a": "A maioria dos estados exige que empregadores com funcionários contrate Workers' Compensation. As regras variam conforme a localização e o número de colaboradores." },
+      "q2": { "q": "O que o seguro cobre?", "a": "Cobre despesas médicas, reabilitação e parte dos salários perdidos quando um funcionário sofre lesão ou doença relacionada ao trabalho." },
+      "q3": { "q": "Como funciona o processo?", "a": "Você fornece informações sobre sua empresa e funcionários. Nós buscamos cotações com múltiplas seguradoras e apresentamos as melhores opções." },
+      "q4": { "q": "Qual é o custo médio?", "a": "O prêmio varia conforme o tipo de negócio, número de funcionários e histórico de sinistros. Solicitamos uma cotação personalizada para sua situação." },
+      "q5": { "q": "Posso mudar de seguradora?", "a": "Sim. Você pode revisar sua cobertura a qualquer momento e mudar para um plano melhor. Ajudamos no processo de transição para garantir proteção contínua." }
+    },
+    "cta": { "headline": "Obtenha sua cotação", "description": "Fale com nossos especialistas para encontrar a melhor cobertura para seu negócio.", "cta_primary": "Cotar agora", "cta_secondary": "Falar com a equipa" }
+  },
+  "sobreNosPage": {
+    "hero": { "label": "Seguros modernos", "headline": "Portugal Agency", "description": "Especializada em seguros de propriedade e acidentes, oferecemos soluções para pessoas e empresas em New Jersey.", "cta_primary": "Agendar consulta", "cta_secondary": "Ver coberturas" },
+    "historia": { "label": "Experiência", "headline": "Nossa história no mercado de seguros", "description": "Desde o início, a Portugal Agency dedicou-se exclusivamente ao segmento de Property & Casualty. Acumulamos anos de experiência em seguros pessoais e comerciais, evoluindo constantemente para oferecer as melhores soluções à comunidade portuguesa e hispânica em New Jersey.", "cta_primary": "Falar conosco", "cta_secondary": "Nossos serviços" },
+    "diferenciais": {
+      "label": "Diferenciais", "headline": "O que nos torna únicos", "description": "Soluções abrangentes com acesso a múltiplas seguradoras.",
+      "d1": { "title": "Ampla gama de seguros", "description": "Cobrimos pessoais, comerciais e especializados para qualquer necessidade." },
+      "d2": { "title": "Acesso a múltiplas seguradoras", "description": "Parcerias estratégicas garantem as melhores opções e preços." },
+      "d3": { "title": "Busca personalizada de soluções", "description": "Encontramos a proteção ideal para cada cliente com atenção consultiva." }
+    },
+    "numeros": {
+      "label": "Números", "headline": "Credibilidade em dados", "description": "Nossa trajetória reflete dedicação e confiança no mercado.",
+      "n1": { "num": "15+", "label": "Anos de atuação", "desc": "Experiência consolidada no segmento de Property & Casualty." },
+      "n2": { "num": "500+", "label": "Clientes atendidos", "desc": "Pessoas e empresas que confiam em nossas soluções." },
+      "n3": { "num": "20+", "label": "Parcerias estratégicas", "desc": "Acesso a seguradoras e plataformas líderes do mercado." }
+    },
+    "equipa": {
+      "label": "Equipa", "headline": "Nossos profissionais", "description": "Especialistas dedicados a encontrar a melhor proteção para você.", "cta": "Falar conosco",
+      "p1": { "name": "Carlos Silva", "role": "Diretor executivo", "bio": "Mais de uma década liderando estratégias de seguros e parcerias." },
+      "p2": { "name": "Maria Santos", "role": "Gerente comercial", "bio": "Especialista em soluções customizadas para empresas de todos os portes." },
+      "p3": { "name": "João Oliveira", "role": "Consultor de seguros", "bio": "Atendimento consultivo focado em entender as necessidades reais." }
+    },
+    "cta": { "headline": "Próximos passos", "description": "Explore nossos seguros e encontre a proteção certa para você ou seu negócio.", "cta_primary": "Agendar consulta", "cta_secondary": "Ver coberturas" }
+  },
+  "generalLiabilityPage": {
+    "hero": { "label": "Proteção", "headline": "Seguro General Liability", "description": "Sua empresa protegida contra riscos inesperados e imprevistos do dia a dia.", "cta_primary": "Cotar", "cta_secondary": "Saber mais" },
+    "what": {
+      "label": "Proteção", "headline": "O que é responsabilidade civil geral", "description": "General Liability é a proteção fundamental para qualquer negócio. Cobre despesas quando seu negócio causa danos a terceiros, seja por lesão corporal ou dano à propriedade.",
+      "items": ["Lesões corporais e acidentes", "Danos à propriedade de terceiros", "Despesas médicas e processos judiciais"],
+      "cta_primary": "Saber mais", "cta_secondary": "Explorar"
+    },
+    "why": {
+      "label": "Benefícios", "headline": "Por que sua empresa precisa",
+      "f1": { "title": "Proteção financeira", "description": "Evita que um único incidente destrua seu negócio." },
+      "f2": { "title": "Conformidade legal", "description": "Atende exigências obrigatórias em contratos comerciais." },
+      "f3": { "title": "Tranquilidade operacional", "description": "Trabalhe sem medo de riscos inesperados do cotidiano." },
+      "f4": { "title": "Cobertura abrangente", "description": "Protege contra lesões, danos e despesas legais." }
+    },
+    "faq": {
+      "headline": "Dúvidas", "description": "Respostas para as perguntas mais comuns sobre proteção de responsabilidade civil.",
+      "q1": { "q": "O que cobre exatamente?", "a": "General Liability protege sua empresa quando alguém se machuca nas suas instalações ou quando seus produtos causam danos. Cobre despesas médicas, processos judiciais e indenizações por lesões corporais ou danos à propriedade de terceiros." },
+      "q2": { "q": "Quanto custa o seguro?", "a": "O custo varia conforme o tipo de negócio, receita anual e histórico de sinistros. A Portugal Agency compara cotações de múltiplas seguradoras para encontrar o melhor preço para sua empresa." },
+      "q3": { "q": "Quem precisa deste seguro?", "a": "Praticamente toda empresa que trabalha com o público ou tem propriedade comercial precisa de General Liability. Desde pequenos negócios até grandes corporações, este seguro é essencial para proteção financeira." },
+      "q4": { "q": "Como funciona um sinistro?", "a": "Quando ocorre um incidente, você notifica a seguradora imediatamente. A seguradora investiga, avalia a reclamação e cobre os custos conforme os termos da sua apólice." },
+      "q5": { "q": "Posso personalizar a cobertura?", "a": "Sim. Você pode ajustar limites de cobertura, franquias e adicionar coberturas especializadas conforme as necessidades específicas do seu negócio." }
+    },
+    "cta": { "headline": "Proteja seu negócio agora", "description": "Cotações rápidas de múltiplas seguradoras.", "cta_primary": "Cotar agora", "cta_secondary": "Falar com especialista" }
+  },
+  "seguroPessoalPage": {
+    "hero": { "label": "Proteção", "headline": "Seguros para sua vida", "description": "Cobertura completa para casa, carro e bens pessoais com as melhores opções do mercado.", "cta_primary": "Cotar", "cta_secondary": "Contato" },
+    "products": {
+      "label": "Opções", "headline": "Seguros pessoais para você", "description": "Casa, carro, equipamentos e muito mais",
+      "p1": { "label": "Casa", "title": "Proteção completa para seu lar", "description": "Cobertura abrangente contra danos e roubos." },
+      "p2": { "label": "Carro", "title": "Segurança nas ruas e estradas", "description": "Assistência 24 horas e cobertura completa." },
+      "p3": { "label": "Terremotos", "title": "Proteção contra desastres naturais", "description": "Cobertura especializada para sua tranquilidade." },
+      "p4": { "label": "Equipamentos", "title": "Seguro para seus bens valiosos", "description": "Proteção específica para equipamentos pessoais." }
+    },
+    "benefits": {
+      "label": "Benefícios", "headline": "Por que escolher a Portugal Agency", "description": "Proteção confiável com as melhores seguradoras do mercado.",
+      "b1": { "tag": "Tranquilidade", "title": "Cobertura abrangente para sua paz de espírito", "description": "Proteja sua casa, seu carro e seus bens pessoais com coberturas que realmente funcionam quando você precisa." },
+      "b2": { "tag": "Rapidez", "title": "Cotações em minutos", "description": "Receba propostas de múltiplas seguradoras sem precisar preencher formulários repetidos. Nosso processo é direto e eficiente." },
+      "b3": { "tag": "Expertise", "title": "Especialistas ao seu lado", "description": "Nossos consultores falam português, espanhol e inglês para garantir que você entenda cada detalhe da sua cobertura." }
+    },
+    "faq": {
+      "headline": "Dúvidas", "description": "Respostas para as perguntas mais comuns sobre seguros pessoais e como contratar.",
+      "q1": { "q": "Quanto custa um seguro?", "a": "O valor depende do tipo de cobertura, do bem segurado e do seu perfil de risco. Nós comparamos múltiplas seguradoras para encontrar as melhores opções e preços para você." },
+      "q2": { "q": "Posso contratar online?", "a": "Sim. Você pode solicitar uma cotação através do nosso site e entrar em contato conosco para finalizar a contratação com segurança e rapidez." },
+      "q3": { "q": "Quais coberturas são incluídas?", "a": "Oferecemos coberturas para casa, carro e bens pessoais. Cada plano pode ser personalizado conforme suas necessidades específicas e orçamento." },
+      "q4": { "q": "Como funciona o atendimento?", "a": "Nossa equipe está disponível para orientar você em cada etapa do processo, desde a cotação até a contratação e suporte pós-venda." },
+      "q5": { "q": "Preciso de documentação específica?", "a": "Sim, documentos básicos serão solicitados durante o processo de cotação. Nossa equipe orientará você sobre tudo que é necessário." }
+    },
+    "cta": { "headline": "Proteja você e sua família", "description": "Coberturas completas para o que mais importa.", "cta_primary": "Cotar agora", "cta_secondary": "Falar com especialista" }
+  },
+  "seguroResidencialPage": {
+    "hero": { "label": "Proteção", "headline": "Seu lar seguro", "description": "Proteja o que mais importa com um seguro residencial que oferece tranquilidade real para você e sua família.", "cta_primary": "Cotar", "cta_secondary": "Saiba mais" },
+    "coverages": {
+      "label": "Proteção", "headline": "Coberturas que protegem seu lar", "description": "Seu lar merece proteção completa. Oferecemos coberturas abrangentes para todos os riscos que sua casa pode enfrentar.", "cta_primary": "Saiba mais", "cta_secondary": "Comparar",
+      "c1": { "title": "Incêndio e explosão", "description": "Proteção contra danos causados por incêndio, explosão e fumaça. Sua estrutura e pertences estão cobertos." },
+      "c2": { "title": "Roubo e furto", "description": "Cobertura para furto de bens do interior do imóvel e roubo com arrombamento." },
+      "c3": { "title": "Danos elétricos", "description": "Proteção contra curto-circuito e danos causados por variações de energia elétrica." },
+      "c4": { "title": "Desastres naturais", "description": "Cobertura para danos causados por vendaval, granizo, raio e outros eventos da natureza." }
+    },
+    "testimonials": {
+      "headline": "Clientes satisfeitos", "description": "Veja o que nossos clientes dizem sobre o seguro residencial.",
+      "t1": { "quote": "A Portugal Agency tornou tudo simples. Recebi várias cotações em minutos e escolhi a melhor opção para minha casa.", "name": "Maria Silva", "role": "Proprietária, New Jersey" },
+      "t2": { "quote": "Quando tive um sinistro, a equipe foi rápida e eficiente. Meu problema foi resolvido sem complicações.", "name": "João Santos", "role": "Proprietário, Newark NJ" },
+      "t3": { "quote": "Recomendo a Portugal Agency para qualquer um que queira proteção real e preços justos para sua casa.", "name": "Ana Costa", "role": "Proprietária, Elizabeth NJ" }
+    },
+    "faq": {
+      "headline": "Dúvidas", "description": "Encontre respostas para as perguntas mais comuns sobre seguro residencial.",
+      "q1": { "q": "O que é coberto?", "a": "O seguro residencial cobre incêndio, roubo, danos elétricos e desastres naturais. Cada apólice pode ser personalizada conforme suas necessidades específicas." },
+      "q2": { "q": "Como funciona a franquia?", "a": "A franquia é o valor que você paga antes que o seguro cubra os danos. Quanto maior a franquia, menor o prêmio mensal." },
+      "q3": { "q": "Quanto tempo leva para cotar?", "a": "Nossa plataforma fornece cotações em minutos. Você recebe várias opções de seguradoras para comparar preços e coberturas." },
+      "q4": { "q": "Posso alterar minha cobertura?", "a": "Sim, você pode ajustar sua cobertura a qualquer momento durante o período da apólice. Entre em contato conosco para fazer alterações." },
+      "q5": { "q": "Qual é o prazo de vigência?", "a": "As apólices geralmente têm vigência de um ano. Você pode renovar ou fazer alterações antes do vencimento." }
+    },
+    "cta": { "headline": "Proteja seu lar agora", "description": "Cotações de múltiplas seguradoras em minutos.", "cta_primary": "Cotar agora", "cta_secondary": "Falar com especialista" }
+  },
+  "blogPage": {
+    "label": "Blog",
+    "headline": "Conhecimento sobre seguros",
+    "description": "Artigos e insights para proteger seu negócio e sua família",
+    "tabs": { "all": "Todos", "commercial": "Comerciais", "personal": "Pessoais", "tips": "Dicas", "trends": "Tendências" },
+    "posts": {
+      "p1": { "category": "Comercial", "readTime": "7 min leitura", "title": "Guia completo: general liability para empresas", "description": "Entenda as coberturas essenciais para proteger seu negócio contra terceiros" },
+      "p2": { "category": "Comercial", "readTime": "5 min leitura", "title": "Workers' compensation: o guia do empregador", "description": "Saiba o que é obrigatório e como funciona na prática em New Jersey" },
+      "p3": { "category": "Pessoal", "readTime": "6 min leitura", "title": "Seguro residencial: o que você precisa saber", "description": "Descubra quais coberturas você realmente precisa para sua casa" },
+      "p4": { "category": "Pessoal", "readTime": "4 min leitura", "title": "Seguro de automóvel: como escolher a cobertura certa", "description": "Compare coberturas e encontre o equilíbrio entre proteção e custo" }
+    },
+    "readMore": "Ler mais",
+    "viewAll": "Ver todos os artigos",
+    "cta": {
+      "headline": "Pronto para proteger seu negócio?",
+      "description": "Obtenha uma cotação personalizada em minutos com nossos especialistas",
+      "primary": "Solicitar cotação",
+      "secondary": "Falar conosco"
+    },
+    "faq": {
+      "headline": "Dúvidas sobre nosso blog",
+      "description": "Respostas para as perguntas mais comuns sobre nossos conteúdos",
+      "q1": { "q": "Qual a diferença entre seguro pessoal e comercial?", "a": "Seguros pessoais cobrem indivíduos e suas propriedades, como casa e carro. Seguros comerciais protegem empresas contra riscos operacionais, responsabilidades e perdas de propriedade. A Portugal Agency oferece ambas as categorias para atender suas necessidades." },
+      "q2": { "q": "Por que devo ler sobre seguros?", "a": "Nossos artigos ajudam você a entender melhor os tipos de cobertura disponíveis, tomar decisões informadas e proteger adequadamente seu patrimônio. Conhecimento é a melhor defesa contra riscos inesperados." },
+      "q3": { "q": "Com que frequência publicamos novos artigos?", "a": "Publicamos regularmente conteúdo relevante sobre tendências do mercado, dicas de proteção e análises de seguros. Acompanhe nosso blog para ficar atualizado." },
+      "q4": { "q": "Posso compartilhar estes artigos com minha empresa?", "a": "Sim, nossos artigos são recursos valiosos para educação e planejamento. Compartilhe com sua equipe ou clientes para promover melhor compreensão sobre proteção." },
+      "q5": { "q": "Como os artigos ajudam na cotação de seguros?", "a": "Ao entender melhor seus riscos e necessidades através de nossos artigos, você estará mais preparado para solicitar uma cotação precisa e adequada à sua realidade." },
+      "cta": "Fale conosco"
+    },
+    "contact": {
+      "label": "Localização",
+      "headline": "Visite-nos",
+      "description": "Estamos aqui para responder suas questões sobre seguros",
+      "email": { "title": "Correspondência", "value": "contato@portugalagency.com" },
+      "phone": { "title": "Direto", "value": "+1 (201) 555-0147" },
+      "address": { "title": "Endereço", "value": "180 Ferry St, Newark, New Jersey 07105" }
+    }
+  },
+  "blogPostPage": {
+    "breadcrumb": { "blog": "Blog", "category": "Seguros" },
+    "title": "Entenda os tipos de cobertura para seu negócio",
+    "author": "Portugal Agency",
+    "authorRole": "Especialista em seguros P&C",
+    "date": "15 jan 2024",
+    "readTime": "8 min leitura",
+    "share": "Compartilhar este artigo",
+    "tags": { "t1": "Seguros comerciais", "t2": "Proteção empresarial", "t3": "Cobertura profissional", "t4": "Dicas práticas" },
+    "testimonials": {
+      "headline": "Leitores falam",
+      "description": "O que dizem sobre nossos artigos",
+      "t1": { "quote": "Finalmente entendi a diferença entre general liability e professional liability. Excelente explicação.", "name": "Carlos Mendes", "role": "Proprietário, Limpeza Comercial" },
+      "t2": { "quote": "Procurava informações sobre workers' compensation e encontrei tudo aqui de forma clara e direta.", "name": "Ana Silva", "role": "Gerente de RH, Startup Tech" },
+      "t3": { "quote": "O artigo sobre seguro residencial me ajudou a escolher a cobertura certa para minha casa.", "name": "João Ferreira", "role": "Proprietário de Imóvel, Nova Jersey" }
+    },
+    "related": {
+      "label": "Blog",
+      "headline": "Leia mais artigos",
+      "description": "Explore nossos guias e dicas",
+      "viewAll": "Ver todos",
+      "posts": {
+        "p1": { "category": "Comercial", "readTime": "7 min leitura", "title": "Guia completo sobre general liability", "description": "Entenda as coberturas essenciais para seu negócio" },
+        "p2": { "category": "Pessoal", "readTime": "5 min leitura", "title": "Seguro residencial: o que você precisa saber", "description": "Proteja sua casa com as coberturas adequadas" },
+        "p3": { "category": "Comercial", "readTime": "6 min leitura", "title": "Workers' compensation para pequenas empresas", "description": "Saiba como proteger seus funcionários adequadamente" }
+      }
+    },
+    "cta": {
+      "headline": "Pronto para dar o próximo passo?",
+      "description": "Fale com nossos especialistas e obtenha uma cotação personalizada.",
+      "primary": "Solicitar cotação",
+      "secondary": "Como funciona"
+    }
+  },
+  "parceirosPage": {
+    "label": "Parceiros",
+    "headline": "Acesso amplo ao mercado",
+    "description": "Trabalhamos com as melhores seguradoras para encontrar sua cobertura ideal",
+    "primary": "Solicitar cotação",
+    "secondary": "Falar conosco",
+    "logosHeadline": "Parceiros que cobrem o mercado",
+    "cta": {
+      "headline": "Pronto para obter sua cotação?",
+      "description": "Nossa rede de parceiros garante que você encontre a cobertura ideal com o melhor preço do mercado.",
+      "primary": "Solicitar cotação",
+      "secondary": "Falar conosco"
+    }
+  },
+  "seguroAutomovelPage": {
+    "label": "Proteção",
+    "headline": "Seguro automóvel inteligente",
+    "description": "Cotações rápidas de múltiplas seguradoras em um único lugar",
+    "primary": "Cotar agora",
+    "secondary": "Falar conosco",
+    "comparison": {
+      "label": "Comparação",
+      "headline": "Múltiplas seguradoras em um lugar",
+      "description": "Veja todas as opções disponíveis com preços e coberturas lado a lado",
+      "tag": "Eficiência",
+      "title": "Cotações automáticas de nossos parceiros",
+      "body": "Insira seus dados uma única vez. Nossa plataforma busca cotações de múltiplas seguradoras automaticamente, economizando seu tempo e garantindo que você veja todas as opções disponíveis no mercado.",
+      "primary": "Comparar",
+      "secondary": "Saiba mais"
+    },
+    "coverages": {
+      "label": "Proteção",
+      "headline": "Cobertura que funciona",
+      "description": "Seu veículo merece mais que promessas vazias",
+      "c1": { "tag": "Básica", "title": "Responsabilidade Civil", "body": "Cobertura obrigatória que protege terceiros em caso de acidente — danos corporais e materiais. A base legal de qualquer apólice em New Jersey.", "primary": "Saiba mais", "secondary": "Detalhes" },
+      "c2": { "tag": "Intermediária", "title": "Colisão e Abrangente", "body": "Protege seu veículo contra colisões, roubo, vandalismo, desastres naturais e danos não relacionados a acidentes. Ideal para veículos de médio e alto valor.", "primary": "Saiba mais", "secondary": "Detalhes" },
+      "c3": { "tag": "Premium", "title": "Cobertura Total", "body": "Combinação completa: responsabilidade civil, colisão, abrangente e assistência 24 horas. A proteção mais ampla disponível para total tranquilidade.", "primary": "Saiba mais", "secondary": "Detalhes" },
+      "c4": { "tag": "Adicional", "title": "Assistência 24h", "body": "Quando algo acontece na estrada, você não quer esperar. Nossos especialistas estão disponíveis a qualquer hora para guiá-lo em cada passo do sinistro.", "primary": "Saiba mais", "secondary": "Detalhes" }
+    },
+    "steps": {
+      "label": "Processo",
+      "headline": "Como você obtém seu seguro",
+      "description": "Três passos simples. Sem complicações, sem surpresas. Você controla tudo.",
+      "s1": { "title": "Preencha seus dados uma única vez", "description": "Diga-nos sobre seu veículo e suas necessidades de cobertura. Rápido e sem formulários repetidos." },
+      "s2": { "title": "Receba cotações de múltiplas seguradoras", "description": "Nossa plataforma busca automaticamente as melhores opções disponíveis no mercado para você." },
+      "s3": { "title": "Escolha e contrate em minutos", "description": "Compare preços e coberturas lado a lado, depois assine online e esteja protegido imediatamente." }
+    },
+    "faq": {
+      "headline": "Dúvidas sobre seguro auto",
+      "description": "Respostas claras sobre coberturas, franquias e procedimentos de sinistro",
+      "q1": { "q": "Qual cobertura devo escolher?", "a": "A cobertura depende do seu veículo e necessidades. Oferecemos desde responsabilidade civil até cobertura total com proteção contra roubo e colisão. Nossos especialistas ajudam a encontrar o equilíbrio certo entre proteção e custo." },
+      "q2": { "q": "Como funciona a franquia?", "a": "A franquia é o valor que você paga quando faz uma reclamação. Franquias menores significam prêmios maiores, e vice-versa. Você escolhe o valor que melhor se adequa ao seu orçamento durante a cotação." },
+      "q3": { "q": "Quanto tempo leva para receber uma cotação?", "a": "Nossa plataforma compara múltiplas seguradoras em minutos. Você recebe opções de diferentes provedores com preços e coberturas lado a lado, economizando horas de pesquisa." },
+      "q4": { "q": "O que fazer após um sinistro?", "a": "Entre em contato conosco imediatamente após um acidente. Orientaremos você através de cada etapa do processo de reclamação e garantiremos que sua situação seja resolvida rapidamente." },
+      "q5": { "q": "Posso trocar de seguro?", "a": "Sim, você pode trocar a qualquer momento. Ajudamos com a transição e garantimos que não haja lacunas na cobertura durante a mudança de uma apólice para outra." },
+      "ctaHeadline": "Ainda tem perguntas?",
+      "ctaDescription": "Fale com nossos especialistas para orientação personalizada",
+      "cta": "Falar conosco"
+    },
+    "contact": {
+      "label": "Suporte",
+      "headline": "Fale conosco",
+      "description": "Nossos especialistas estão prontos para ajudar com suas dúvidas sobre seguro auto",
+      "email": { "title": "Email", "subtitle": "Envie sua mensagem", "value": "contato@portugalagency.com" },
+      "phone": { "title": "Telefone", "subtitle": "Ligue para falar conosco", "value": "+1 (201) 555-0147" },
+      "address": { "title": "Escritório", "subtitle": "Newark, New Jersey, Estados Unidos", "cta": "Ver localização" }
+    },
+    "cta": {
+      "headline": "Obtenha sua cotação agora",
+      "description": "Não espere mais para proteger seu veículo com a melhor cobertura disponível no mercado.",
+      "primary": "Cotar agora",
+      "secondary": "Falar conosco"
     }
   }
 }

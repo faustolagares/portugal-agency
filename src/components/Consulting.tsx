@@ -54,12 +54,14 @@ export function Consulting() {
                     </p>
                   </div>
                   <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                    <Button variant="secondary" size="lg">
-                      {t(`consulting.cards.${key}.cta_primary`)}
+                    <Button variant="secondary" size="lg" asChild>
+                      <a href="/consultoria">{t(`consulting.cards.${key}.cta_primary`)}</a>
                     </Button>
-                    <Button variant="link" className="gap-1">
-                      {t(`consulting.cards.${key}.cta_secondary`)}
-                      <ChevronRight className="h-4 w-4" />
+                    <Button variant="link" className="gap-1" asChild>
+                      <a href="/consultoria">
+                        {t(`consulting.cards.${key}.cta_secondary`)}
+                        <ChevronRight className="h-4 w-4" />
+                      </a>
                     </Button>
                   </div>
                 </div>

@@ -6,6 +6,11 @@ import { Button } from "@/components/ui/button";
 import { FadeUp, FadeIn, BlurUp } from "@/components/ui/motion";
 
 const cardKeys = ["card1", "card2", "card3"] as const;
+const cardHrefs: Record<string, string> = {
+  card1: "/workers-compensation",
+  card2: "/general-liability",
+  card3: "/seguros-comerciais",
+};
 
 const cardEntryVariants = [
   { x: -24, y: 24 },
@@ -45,7 +50,7 @@ export function BusinessCoverages() {
           {cardKeys.map((key, i) => (
             <motion.a
               key={key}
-              href="#"
+              href={cardHrefs[key]}
               className={`relative flex w-full flex-col overflow-hidden lg:h-full lg:w-1/2 lg:transition-all lg:duration-200 ${
                 hoveredIdx === i ? "lg:!w-[70%]" : ""
               }`}

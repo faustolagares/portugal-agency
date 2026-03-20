@@ -4,6 +4,15 @@ import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
 
 const columnKeys = ["insurance", "blog", "follow", "commercial", "personal", "company"] as const;
 
+const columnLinkHrefs: Record<string, string[]> = {
+  insurance: ["/consultoria", "/seguros-comerciais", "/seguros-pessoais", "/seguro-residencial", "/seguro-automovel"],
+  blog: ["/blog", "/blog/artigo", "/blog", "/blog", "/blog"],
+  follow: ["#", "#", "#", "#", "#"],
+  commercial: ["/workers-compensation", "/general-liability", "/seguros-comerciais", "/consultoria", "/parceiros"],
+  personal: ["/seguros-pessoais", "/seguro-residencial", "/seguro-automovel", "/consultoria", "#"],
+  company: ["/sobre-nos", "/parceiros", "/blog", "/consultoria", "#"],
+};
+
 export function Footer() {
   const { t } = useTranslation();
 
@@ -54,9 +63,10 @@ export function Footer() {
                 {[0, 1, 2, 3, 4].map((i) => {
                   const link = t(`footer.columns.${col}.links.${i}`, { defaultValue: "" });
                   if (!link) return null;
+                  const href = columnLinkHrefs[col]?.[i] ?? "#";
                   return (
                     <li key={i} className="py-2 text-sm">
-                      <a href="#" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
+                      <a href={href} className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
                         {link}
                       </a>
                     </li>
@@ -69,21 +79,16 @@ export function Footer() {
 
         {/* Logo + avatars */}
         <div className="flex flex-col items-start justify-between pb-6 sm:flex-row sm:items-center md:pb-8">
-          <a href="#" className="mb-6 sm:mb-0">
+          <a href="#" className="mb-6 sm:mb-0 flex items-center gap-2.5">
+            <img
+              src="/logos/portugual-agency-white-logo.png"
+              alt="Portugal Agency"
+              className="h-8 w-auto"
+            />
             <span className="text-2xl font-bold tracking-tighter text-white">
               Portugal Agency
             </span>
           </a>
-          <div className="ml-3 flex">
-            {[1, 2, 3, 4, 5].map((i) => (
-              <img
-                key={i}
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-small.svg"
-                alt=""
-                className="-ml-3 size-12 min-h-12 min-w-12 rounded-full border-2 border-foreground object-cover"
-              />
-            ))}
-          </div>
         </div>
 
         {/* Bottom divider */}
