@@ -2,7 +2,16 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import DesignSystem from "./pages/DesignSystem";
@@ -17,6 +26,7 @@ import Blog from "./pages/Blog";
 import PostagemBlog from "./pages/PostagemBlog";
 import Parceiros from "./pages/Parceiros";
 import SeguroAutomovel from "./pages/SeguroAutomovel";
+import Contato from "./pages/Contato";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +36,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/design-system" element={<DesignSystem />} />
@@ -40,6 +51,7 @@ const App = () => (
           <Route path="/blog/artigo" element={<PostagemBlog />} />
           <Route path="/parceiros" element={<Parceiros />} />
           <Route path="/seguro-automovel" element={<SeguroAutomovel />} />
+          <Route path="/contato" element={<Contato />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

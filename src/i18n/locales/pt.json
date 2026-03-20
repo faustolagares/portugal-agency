@@ -438,6 +438,50 @@
     },
     "cta": { "headline": "Proteja seu lar agora", "description": "Cotações de múltiplas seguradoras em minutos.", "cta_primary": "Cotar agora", "cta_secondary": "Falar com especialista" }
   },
+  "contatoPage": {
+    "label": "Contato",
+    "headline": "Fale com a Portugal Agency",
+    "description": "Estamos aqui para ajudar. Preencha o formulário ou entre em contato diretamente — respondemos em até 24 horas.",
+    "info": {
+      "address": { "title": "Endereço", "value": "180 Ferry St, Newark, NJ 07105" },
+      "phone": { "title": "Telefone / WhatsApp", "value": "(973) 922-3313" },
+      "email": { "title": "Email", "value": "contato@portugalagency.com" },
+      "hours": {
+        "title": "Horário de Funcionamento",
+        "weekdays": "Segunda a Sexta: 09:00 – 18:00",
+        "saturday": "Sábado: 09:00 – 13:00",
+        "sunday": "Domingo: Fechado"
+      }
+    },
+    "form": {
+      "name": "Nome completo",
+      "email": "Email",
+      "phone": "Telefone / WhatsApp",
+      "subject": "Assunto",
+      "subjects": {
+        "placeholder": "Selecione um assunto",
+        "insurance": "Seguros Comerciais",
+        "personal": "Seguros Pessoais",
+        "auto": "Seguro de Automóvel",
+        "workers": "Workers' Compensation",
+        "tax": "Preparação de Impostos",
+        "notary": "Serviços de Notário",
+        "other": "Outro"
+      },
+      "message": "Mensagem",
+      "messagePlaceholder": "Como podemos ajudar?",
+      "submit": "Enviar mensagem",
+      "note": "Respondemos em até 24 horas úteis.",
+      "success": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+      "error": "Ocorreu um erro. Tente novamente ou ligue diretamente para nós."
+    },
+    "cta": {
+      "headline": "Prefere falar agora?",
+      "description": "Ligue ou mande um WhatsApp. Nossa equipe fala português, inglês e espanhol.",
+      "primary": "Ligar agora",
+      "secondary": "Solicitar cotação"
+    }
+  },
   "blogPage": {
     "label": "Blog",
     "headline": "Conhecimento sobre seguros",
@@ -472,8 +516,9 @@
       "headline": "Visite-nos",
       "description": "Estamos aqui para responder suas questões sobre seguros",
       "email": { "title": "Correspondência", "value": "contato@portugalagency.com" },
-      "phone": { "title": "Direto", "value": "+1 (201) 555-0147" },
-      "address": { "title": "Endereço", "value": "180 Ferry St, Newark, New Jersey 07105" }
+      "phone": { "title": "Direto", "value": "(973) 922-3313" },
+      "address": { "title": "Endereço", "value": "180 Ferry St, Newark, NJ 07105" },
+      "hours": { "title": "Horário", "weekdays": "Seg–Sex: 09:00–18:00", "saturday": "Sáb: 09:00–13:00", "sunday": "Dom: Fechado" }
     }
   },
   "blogPostPage": {
@@ -574,8 +619,9 @@
       "headline": "Fale conosco",
       "description": "Nossos especialistas estão prontos para ajudar com suas dúvidas sobre seguro auto",
       "email": { "title": "Email", "subtitle": "Envie sua mensagem", "value": "contato@portugalagency.com" },
-      "phone": { "title": "Telefone", "subtitle": "Ligue para falar conosco", "value": "+1 (201) 555-0147" },
-      "address": { "title": "Escritório", "subtitle": "Newark, New Jersey, Estados Unidos", "cta": "Ver localização" }
+      "phone": { "title": "Telefone", "subtitle": "Ligue ou WhatsApp", "value": "(973) 922-3313" },
+      "address": { "title": "Escritório", "subtitle": "180 Ferry St, Newark, NJ 07105", "cta": "Ver localização" },
+      "hours": { "title": "Horário", "weekdays": "Seg–Sex: 09:00–18:00", "saturday": "Sáb: 09:00–13:00", "sunday": "Dom: Fechado" }
     },
     "cta": {
       "headline": "Obtenha sua cotação agora",

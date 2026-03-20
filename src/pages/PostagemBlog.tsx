@@ -1,14 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { ChevronRight } from "lucide-react";
-import { BiLinkAlt, BiLogoFacebookCircle, BiLogoLinkedinSquare } from "react-icons/bi";
+import { BiLinkAlt, BiLogoFacebookCircle, BiLogoLinkedinSquare, BiSolidStar } from "react-icons/bi";
 import { FaXTwitter } from "react-icons/fa6";
-import { BiSolidStar } from "react-icons/bi";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { FadeUp, FadeIn, BlurUp, SlideLeft } from "@/components/ui/motion";
 
-const testimonialKeys = ["t1", "t2", "t3"] as const;
 const relatedKeys = ["p1", "p2", "p3"] as const;
 const tagKeys = ["t1", "t2", "t3", "t4"] as const;
 
@@ -40,9 +38,10 @@ export default function PostagemBlog() {
       <Navbar />
 
       {/* Article Header */}
-      <section className="px-2 md:px-[5%] pt-36 pb-16 md:pb-24 lg:pb-28">
+      <section className="px-2 md:px-[5%] pt-36 pb-0">
         <div className="container">
-          <div className="mx-auto mb-12 flex w-full max-w-2xl flex-col items-start md:mb-16 lg:mb-20">
+          {/* Narrow text column */}
+          <div className="mx-auto mb-10 flex w-full max-w-[720px] flex-col items-start">
             {/* Breadcrumb */}
             <FadeIn delay={0}>
               <nav aria-label="breadcrumb" className="mb-6 flex items-center gap-2 text-body-sm text-muted-foreground">
@@ -56,18 +55,18 @@ export default function PostagemBlog() {
 
             {/* Title */}
             <BlurUp delay={0.1}>
-              <h1 className="text-display mb-8 md:mb-10 lg:mb-12">{t("blogPostPage.title")}</h1>
+              <h1 className="text-display mb-8 md:mb-10">{t("blogPostPage.title")}</h1>
             </BlurUp>
 
             {/* Author + Share row */}
             <FadeIn delay={0.24}>
-              <div className="flex w-full flex-col items-start justify-between sm:flex-row sm:items-end gap-4">
+              <div className="flex w-full flex-col items-start justify-between sm:flex-row sm:items-center gap-4">
                 <div className="flex items-center gap-4">
                   <div className="flex-none">
                     <img
                       src="/logos/portugal-agency-blue-logo.png"
                       alt={t("blogPostPage.author")}
-                      className="size-14 min-h-14 min-w-14 rounded-full object-cover"
+                      className="size-12 min-h-12 min-w-12 rounded-full object-cover"
                     />
                   </div>
                   <div>
@@ -84,12 +83,12 @@ export default function PostagemBlog() {
             </FadeIn>
           </div>
 
-          {/* Hero image */}
+          {/* Hero image — full container width */}
           <FadeIn delay={0.32}>
-            <div className="mx-auto w-full overflow-hidden">
+            <div className="w-full overflow-hidden">
               <img
                 src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                className="aspect-[2] size-full object-cover"
+                className="aspect-[2.5] w-full object-cover"
                 alt={t("blogPostPage.title")}
               />
             </div>
@@ -98,11 +97,12 @@ export default function PostagemBlog() {
       </section>
 
       {/* Article Body */}
-      <section className="px-2 md:px-[5%] pb-16 md:pb-24 lg:pb-28">
+      <section className="px-2 md:px-[5%] py-12 md:py-16 lg:py-20">
         <div className="container">
-          <div className="mx-auto max-w-2xl">
+          {/* Central narrow column — editorial blog style */}
+          <div className="mx-auto max-w-[720px]">
             <SlideLeft delay={0}>
-              <div className="prose prose-neutral max-w-none md:prose-lg lg:prose-xl mb-12 md:mb-20">
+              <div className="prose prose-neutral prose-headings:font-semibold prose-headings:tracking-tight prose-p:text-muted-foreground prose-p:leading-relaxed prose-blockquote:border-primary prose-blockquote:text-foreground prose-strong:text-foreground mb-12 md:mb-16">
                 <h3>Introdução</h3>
                 <p>
                   Quando se fala em proteção para empresas em New Jersey, dois seguros se destacam como pilares
@@ -187,49 +187,6 @@ export default function PostagemBlog() {
                 </div>
               </div>
             </FadeIn>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="bg-[#f0f2f5] px-2 md:px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container">
-          <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
-            <BlurUp delay={0}>
-              <h2 className="text-h2 mb-5 md:mb-6">{t("blogPostPage.testimonials.headline")}</h2>
-            </BlurUp>
-            <FadeIn delay={0.16}>
-              <p className="text-muted-foreground">{t("blogPostPage.testimonials.description")}</p>
-            </FadeIn>
-          </div>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {testimonialKeys.map((key, i) => (
-              <FadeUp key={key} delay={0.1 + i * 0.12}>
-                <div className="flex h-full flex-col items-start justify-between border border-border p-6 md:p-8 bg-background">
-                  <div className="mb-5 md:mb-6">
-                    <div className="mb-4 flex">
-                      {Array.from({ length: 5 }).map((_, j) => (
-                        <BiSolidStar key={j} className="mr-1 size-5 text-primary" />
-                      ))}
-                    </div>
-                    <blockquote className="text-foreground">
-                      "{t(`blogPostPage.testimonials.${key}.quote`)}"
-                    </blockquote>
-                  </div>
-                  <div className="flex items-center gap-3 mt-5 md:mt-6">
-                    <img
-                      src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-                      alt={t(`blogPostPage.testimonials.${key}.name`)}
-                      className="size-12 min-h-12 min-w-12 rounded-full object-cover"
-                    />
-                    <div>
-                      <p className="font-semibold">{t(`blogPostPage.testimonials.${key}.name`)}</p>
-                      <p className="text-body-sm text-muted-foreground">{t(`blogPostPage.testimonials.${key}.role`)}</p>
-                    </div>
-                  </div>
-                </div>
-              </FadeUp>
-            ))}
           </div>
         </div>
       </section>

@@ -57,14 +57,14 @@ export function Navbar() {
         }`}
       >
         <div className="px-2 md:px-[5%]">
-          <div className="container flex items-center justify-between py-2">
+          <div className="container flex items-center justify-between py-2.5">
             <a href="/" className="flex items-center gap-2.5">
               <img
                 src={scrolled ? "/logos/portugual-agency-white-logo.png" : "/logos/portugal-agency-blue-logo.png"}
                 alt="Portugal Agency"
                 className="h-8 w-auto"
               />
-              <span className={`text-h4 font-semibold tracking-tight transition-colors duration-300 ${
+              <span className={`text-body-lg font-semibold tracking-tight transition-colors duration-300 ${
                 scrolled ? "text-accent-foreground" : "text-foreground"
               }`}>
                 {t("nav.brand")}
@@ -101,7 +101,7 @@ export function Navbar() {
               </div>
 
               <a href="/blog" className={linkClass}>{t("nav.blog")}</a>
-              <a href="#contact" className={linkClass}>{t("nav.contact")}</a>
+              <a href="/contato" className={linkClass}>{t("nav.contact")}</a>
             </nav>
 
             <div className="hidden items-center gap-md md:flex">
@@ -128,7 +128,7 @@ export function Navbar() {
           <div className="container flex items-center justify-between py-2 shrink-0">
             <a href="/" className="flex items-center gap-2.5">
               <img src="/logos/portugual-agency-white-logo.png" alt="Portugal Agency" className="h-8 w-auto" />
-              <span className="text-h4 font-semibold tracking-tight text-white">{t("nav.brand")}</span>
+              <span className="text-body-lg font-semibold tracking-tight text-white">{t("nav.brand")}</span>
             </a>
             <button className="p-2 text-white" onClick={() => setOpen(false)} aria-label={t("nav.menu_aria")}>
               <X className="h-6 w-6" />
@@ -154,7 +154,7 @@ export function Navbar() {
             </div>
 
             <a href="/blog" className="text-label uppercase tracking-wider text-lg !text-white/70 hover:!text-white transition-colors" onClick={() => setOpen(false)}>{t("nav.blog")}</a>
-            <a href="#contact" className="text-label uppercase tracking-wider text-lg !text-white/70 hover:!text-white transition-colors" onClick={() => setOpen(false)}>{t("nav.contact")}</a>
+            <a href="/contato" className="text-label uppercase tracking-wider text-lg !text-white/70 hover:!text-white transition-colors" onClick={() => setOpen(false)}>{t("nav.contact")}</a>
           </nav>
 
           <div className="container flex flex-col items-center gap-6 pb-12 shrink-0">

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 
 const columnKeys = ["insurance", "blog", "follow", "commercial", "personal", "company"] as const;
 
@@ -10,22 +10,19 @@ const columnLinkHrefs: Record<string, string[]> = {
   follow: ["#", "#", "#", "#", "#"],
   commercial: ["/workers-compensation", "/general-liability", "/seguros-comerciais", "/consultoria", "/parceiros"],
   personal: ["/seguros-pessoais", "/seguro-residencial", "/seguro-automovel", "/consultoria", "#"],
-  company: ["/sobre-nos", "/parceiros", "/blog", "/consultoria", "#"],
+  company: ["/sobre-nos", "/parceiros", "/blog", "/contato", "/consultoria"],
 };
 
 export function Footer() {
   const { t } = useTranslation();
 
   const socialIcons = [
-    { icon: Facebook, label: "Facebook" },
-    { icon: Instagram, label: "Instagram" },
-    { icon: Twitter, label: "Twitter" },
-    { icon: Linkedin, label: "LinkedIn" },
-    { icon: Youtube, label: "YouTube" },
+    { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/portugalagency/" },
+    { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/portugalagency/" },
   ];
 
   return (
-    <footer className="bg-foreground text-accent-foreground px-2 md:px-[5%] py-12 md:py-18 lg:py-20">
+    <footer id="contact" className="bg-foreground text-accent-foreground px-2 md:px-[5%] py-12 md:py-18 lg:py-20">
       <div className="container">
         {/* Hero + CTAs */}
         <div className="lg:flex lg:items-start lg:justify-between">
@@ -100,8 +97,8 @@ export function Footer() {
             {t("footer.copyright")}
           </p>
           <div className="flex items-center gap-3">
-            {socialIcons.map(({ icon: Icon, label }) => (
-              <a key={label} href="#" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
+            {socialIcons.map(({ icon: Icon, label, href }) => (
+              <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
                 <Icon className="size-5" />
               </a>
             ))}

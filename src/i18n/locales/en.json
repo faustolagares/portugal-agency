@@ -430,6 +430,50 @@
     },
     "cta": { "headline": "Protect your home now", "description": "Quotes from multiple insurers in minutes.", "cta_primary": "Quote now", "cta_secondary": "Talk to a specialist" }
   },
+  "contatoPage": {
+    "label": "Contact",
+    "headline": "Get in touch with Portugal Agency",
+    "description": "We're here to help. Fill out the form or contact us directly — we respond within 24 hours.",
+    "info": {
+      "address": { "title": "Address", "value": "180 Ferry St, Newark, NJ 07105" },
+      "phone": { "title": "Phone / WhatsApp", "value": "(973) 922-3313" },
+      "email": { "title": "Email", "value": "contact@portugalagency.com" },
+      "hours": {
+        "title": "Business Hours",
+        "weekdays": "Monday to Friday: 9:00 AM – 6:00 PM",
+        "saturday": "Saturday: 9:00 AM – 1:00 PM",
+        "sunday": "Sunday: Closed"
+      }
+    },
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "subject": "Subject",
+      "subjects": {
+        "placeholder": "Select a subject",
+        "insurance": "Commercial Insurance",
+        "personal": "Personal Insurance",
+        "auto": "Auto Insurance",
+        "workers": "Workers' Compensation",
+        "tax": "Tax Preparation",
+        "notary": "Notary Services",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "How can we help?",
+      "submit": "Send message",
+      "note": "We respond within 24 business hours.",
+      "success": "Message sent successfully! We'll be in touch shortly.",
+      "error": "An error occurred. Please try again or call us directly."
+    },
+    "cta": {
+      "headline": "Prefer to talk now?",
+      "description": "Call or send a WhatsApp message. Our team speaks Portuguese, English, and Spanish.",
+      "primary": "Call now",
+      "secondary": "Request a quote"
+    }
+  },
   "blogPage": {
     "label": "Blog",
     "headline": "Insurance knowledge",
@@ -464,8 +508,9 @@
       "headline": "Visit us",
       "description": "We're here to answer your insurance questions",
       "email": { "title": "Email", "value": "contact@portugalagency.com" },
-      "phone": { "title": "Phone", "value": "+1 (201) 555-0147" },
-      "address": { "title": "Address", "value": "180 Ferry St, Newark, New Jersey 07105" }
+      "phone": { "title": "Phone", "value": "(973) 922-3313" },
+      "address": { "title": "Address", "value": "180 Ferry St, Newark, NJ 07105" },
+      "hours": { "title": "Hours", "weekdays": "Mon–Fri: 9:00 AM–6:00 PM", "saturday": "Sat: 9:00 AM–1:00 PM", "sunday": "Sun: Closed" }
     }
   },
   "blogPostPage": {
@@ -566,7 +611,7 @@
       "headline": "Contact us",
       "description": "Our specialists are ready to help with your auto insurance questions",
       "email": { "title": "Email", "subtitle": "Send us a message", "value": "contact@portugalagency.com" },
-      "phone": { "title": "Phone", "subtitle": "Call to speak with us", "value": "+1 (201) 555-0147" },
+      "phone": { "title": "Phone", "subtitle": "Call or WhatsApp", "value": "(973) 922-3313" },
       "address": { "title": "Office", "subtitle": "Newark, New Jersey, United States", "cta": "Get directions" }
     },
     "cta": {

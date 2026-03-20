@@ -430,6 +430,50 @@
     },
     "cta": { "headline": "Protege tu hogar ahora", "description": "Cotizaciones de múltiples aseguradoras en minutos.", "cta_primary": "Cotizar ahora", "cta_secondary": "Hablar con especialista" }
   },
+  "contatoPage": {
+    "label": "Contacto",
+    "headline": "Habla con Portugal Agency",
+    "description": "Estamos aquí para ayudar. Completa el formulario o contáctanos directamente — respondemos en hasta 24 horas.",
+    "info": {
+      "address": { "title": "Dirección", "value": "180 Ferry St, Newark, NJ 07105" },
+      "phone": { "title": "Teléfono / WhatsApp", "value": "(973) 922-3313" },
+      "email": { "title": "Correo", "value": "contacto@portugalagency.com" },
+      "hours": {
+        "title": "Horario de Atención",
+        "weekdays": "Lunes a Viernes: 09:00 – 18:00",
+        "saturday": "Sábado: 09:00 – 13:00",
+        "sunday": "Domingo: Cerrado"
+      }
+    },
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono / WhatsApp",
+      "subject": "Asunto",
+      "subjects": {
+        "placeholder": "Selecciona un asunto",
+        "insurance": "Seguros Comerciales",
+        "personal": "Seguros Personales",
+        "auto": "Seguro de Auto",
+        "workers": "Workers' Compensation",
+        "tax": "Preparación de Impuestos",
+        "notary": "Servicios de Notario",
+        "other": "Otro"
+      },
+      "message": "Mensaje",
+      "messagePlaceholder": "¿En qué podemos ayudarte?",
+      "submit": "Enviar mensaje",
+      "note": "Respondemos en hasta 24 horas hábiles.",
+      "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.",
+      "error": "Ocurrió un error. Por favor intenta de nuevo o llámanos directamente."
+    },
+    "cta": {
+      "headline": "¿Prefieres hablar ahora?",
+      "description": "Llama o envía un WhatsApp. Nuestro equipo habla portugués, inglés y español.",
+      "primary": "Llamar ahora",
+      "secondary": "Solicitar cotización"
+    }
+  },
   "blogPage": {
     "label": "Blog",
     "headline": "Conocimiento sobre seguros",
