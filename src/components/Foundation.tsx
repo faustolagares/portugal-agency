@@ -63,10 +63,10 @@ export function Foundation() {
         {/* CTAs */}
         <FadeIn delay={0.7}>
           <div className="mt-12 flex items-center gap-4 md:mt-16">
-            <Button variant="outline" size="lg" className="px-8">
+            <Button variant="default" size="lg" className="px-8">
               {t("foundation.cta_primary")}
             </Button>
-            <Button variant="link" className="gap-1">
+            <Button variant="link" className="gap-1 text-foreground">
               {t("foundation.cta_secondary")}
               <ChevronRight className="h-4 w-4" />
             </Button>

@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Clock3, ClipboardList } from "lucide-react";
+
+const cardIcons = [Clock3, ClipboardList] as const;
 import { Button } from "@/components/ui/button";
 import { FadeUp, FadeIn, BlurUp, SlideLeft, SlideRight, ScaleIn } from "@/components/ui/motion";
 
@@ -35,16 +37,13 @@ export function Consulting() {
         <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-2 md:gap-8">
           {cardKeys.map((key, i) => {
             const CardMotion = cardMotion[i];
+            const Icon = cardIcons[i];
             return (
               <CardMotion key={key} delay={0.32 + i * 0.12}>
                 <div className="border border-border p-6 md:p-8 lg:p-12 h-full">
                   <div>
                     <ScaleIn delay={0.4 + i * 0.12} className="mb-5 md:mb-6">
-                      <img
-                        src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                        alt=""
-                        className="size-12"
-                      />
+                      <Icon className="size-12 text-foreground" strokeWidth={1.5} />
                     </ScaleIn>
                     <h3 className="text-h3 mb-5 text-foreground md:mb-6">
                       {t(`consulting.cards.${key}.title`)}
@@ -54,10 +53,10 @@ export function Consulting() {
                     </p>
                   </div>
                   <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-                    <Button variant="secondary" size="lg" asChild>
+                    <Button variant="default" size="lg" asChild>
                       <a href="/consultoria">{t(`consulting.cards.${key}.cta_primary`)}</a>
                     </Button>
-                    <Button variant="link" className="gap-1" asChild>
+                    <Button variant="link" className="gap-1 text-foreground" asChild>
                       <a href="/consultoria">
                         {t(`consulting.cards.${key}.cta_secondary`)}
                         <ChevronRight className="h-4 w-4" />

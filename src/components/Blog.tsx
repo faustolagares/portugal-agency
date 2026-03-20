@@ -71,7 +71,7 @@ export function Blog() {
         </div>
         <FadeIn delay={0.7}>
           <div className="flex items-center justify-center">
-            <Button variant="secondary" size="lg" className="mt-10 md:mt-14 lg:mt-16">
+            <Button variant="default" size="lg" className="mt-10 md:mt-14 lg:mt-16">
               {t("blog.cta_all")}
             </Button>
           </div>

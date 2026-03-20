@@ -58,10 +58,10 @@ export function FamilyCoverages() {
           {/* CTAs */}
           <FadeIn delay={0.7}>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button variant="secondary" size="lg">
+              <Button variant="default" size="lg">
                 {t("family.cta_quote")}
               </Button>
-              <Button variant="link" className="gap-1">
+              <Button variant="link" className="gap-1 text-foreground">
                 {t("family.cta_protect")}
                 <ChevronRight className="h-4 w-4" />
               </Button>

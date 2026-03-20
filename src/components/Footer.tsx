@@ -35,11 +35,11 @@ export function Footer() {
             </p>
           </div>
           <div className="mt-6 flex flex-wrap gap-4 md:mt-8 lg:mt-0">
-            <Button size="lg" className="bg-accent-foreground text-accent hover:bg-accent-foreground/90">
+            <Button size="lg">
               {t("footer.cta_subscribe")}
             </Button>
-            <Button variant="outline" size="lg" className="border-white/30 bg-transparent text-white hover:bg-white/10">
-              {t("footer.cta_contact")}
+            <Button variant="outline" size="lg" className="border-white/30 bg-transparent text-white hover:bg-white/10" asChild>
+              <a href="/contato">{t("footer.cta_contact")}</a>
             </Button>
           </div>
         </div>
